@@ -1,0 +1,366 @@
+// Vario Flex - 0.1.0 -18 April
+
+$one: 100% / 12;
+$two: $one * 2;
+$three: $one * 3;
+$four: $one * 4;
+$five: $one * 5;
+$six: $one * 6;
+$seven: $one * 7;
+$eight: $one * 8;
+$nine: $one * 9;
+$ten: $one * 10;
+$eleven: $one * 11;
+$full: $one * 12;
+
+// .container {
+//   margin: 0 10%;
+//   width: 80%;}
+//
+// @media (min-width: 300px) {
+//   .container {
+//     margin: 0 2%;
+//     width: 96%;}
+// }
+//
+// @media (min-width: 750px) {
+//   .container {
+//     margin: 0 2%;
+//     width: 96%;}
+// }
+
+.v-row,
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;}
+
+
+
+
+
+// optional -a class suffix for selecting all browsers
+.full-a,
+.twelve-a,
+.a-full *,
+.a-twelve * {
+  width: $full;}
+
+.eleven-a,
+.a-eleven * {
+  width: $eleven;}
+
+.ten-a,
+.a-ten * {
+  width: $ten;}
+
+.nine-a,
+.a-nine * {
+  width: $nine;}
+
+.eight-a,
+.a-eight * {
+  width: $eight;}
+
+.seven-a,
+.a-seven * {
+  width: $seven;}
+
+.half-a,
+.six-a,
+.a-half *,
+.a-six * {
+  width: $six;}
+
+.five-a,
+.a-five * {
+  width: $five;}
+
+.third-a,
+.four-a,
+.a-third *,
+.a-four * {
+  width: $four;}
+
+.quarter-a,
+.three-a,
+.a-quarter *,
+.a-three * {
+  width: $three;}
+
+.two-a,
+.a-two * {
+  width: $two;}
+
+.one-a,
+.a-one * {
+  width: $one;}
+
+
+
+
+
+// default grid (no suffix) for 300px or larger
+@media (min-width: 300px) {
+  .full-sm,
+  .twelve-sm,
+  .sm-full *,
+  .sm-twelve * {
+    width: $full;}
+
+  .eleven-sm,
+  .sm-eleven * {
+    width: $eleven;}
+
+  .ten-sm,
+  .sm-ten * {
+    width: $ten;}
+
+  .nine-sm,
+  .sm-nine * {
+    width: $nine;}
+
+  .eight-sm,
+  .sm-eight * {
+    width: $eight;}
+
+  .seven-sm
+  .sm-seven * {
+    width: $seven;}
+
+  .half-sm,
+  .six-sm,
+  .sm-half *,
+  .sm-six * {
+    width: $six;}
+
+  .five-sm,
+  .sm-five * {
+    width: $five;}
+
+  .third-sm,
+  .four-sm,
+  .sm-third *,
+  .sm-four * {
+    width: $four;}
+
+  .quarter-sm,
+  .three-sm,
+  .sm-quarter *,
+  .sm-three * {
+    width: $three;}
+
+  .two-sm,
+  .sm-two * {
+    width: $two;}
+
+  .one-sm,
+  .sm-one * {
+    width: $one;}
+}
+
+
+
+
+
+// -md for medium+ size screens, ie tablet or larger
+@media (min-width: 750px) {
+  .full-md,
+  .twelve-md,
+  .md-full *,
+  .md-twelve * {
+    width: $full;}
+
+  .eleven-md,
+  .md-eleven * {
+    width: $eleven;}
+
+  .ten-md,
+  .md-ten * {
+    width: $ten;}
+
+  .nine-md,
+  .md-nine * {
+    width: $nine;}
+
+  .eight-md,
+  .md-eight * {
+    width: $eight;}
+
+  .seven-md,
+  .md-seven * {
+    width: $seven;}
+
+  .half-md,
+  .six-md,
+  .md-half *,
+  .six-md * {
+    width: $six;}
+
+  .five-md,
+  .md-five * {
+    width: $five;}
+
+  .third-md,
+  .four-md,
+  .md-third *,
+  .md-four * {
+    width: $four;}
+
+  .quarter-md,
+  .three-md,
+  .md-quarter *,
+  .md-three * {
+    width: $three;}
+
+  .two-md,
+  .md-two * {
+    width: $two;}
+
+  .one-md,
+  .md-one * {
+    width: $one;}
+}
+
+
+
+
+
+// -lg for medium+ size screens, ie tablet or larger
+@media (min-width: 1300px) {
+  .full-lg,
+  .twelve-lg,
+  .lg-full *,
+  .lg-twelve * {
+    width: $full;}
+
+  .eleven-lg,
+  .lg-eleven * {
+    width: $eleven;}
+
+  .ten-lg,
+  .lg-ten * {
+    width: $ten;}
+
+  .nine-lg,
+  .lg-nine * {
+    width: $nine;}
+
+  .eight-lg,
+  .lg-eight * {
+    width: $eight;}
+
+  .seven-lg,
+  .lg-seven * {
+    width: $seven;}
+
+  .half-lg,
+  .six-lg,
+  .lg-half *,
+  .lg-six * {
+    width: $six;}
+
+  .five-lg,
+  .lg-five * {
+    width: $five;}
+
+  .third-lg,
+  .four-lg,
+  .lg-third *,
+  .lg-four * {
+    width: $four;}
+
+  .quarter-lg,
+  .three-lg,
+  .lg-quarter *,
+  .lg-quarter * {
+    width: $three;}
+
+  .two-lg,
+  .lg-two * {
+    width: $two;}
+
+  .one-lg,
+  .lg-one * {
+    width: $one;}
+}
+
+
+
+
+
+// -xl for medium+ size screens, ie tablet or larger
+@media (min-width: 1300px) {
+  .full-xl,
+  .twelve-xl,
+  .xl-full *,
+  .xl-twelve * {
+    width: $full;}
+
+  .eleven-xl,
+  .xl-eleven * {
+    width: $eleven;}
+
+  .ten-xl,
+  .xl-ten * {
+    width: $ten;}
+
+  .nine-xl,
+  .xl-nine * {
+    width: $nine;}
+
+  .eight-xl,
+  .xl-eight * {
+    width: $eight;}
+
+  .seven-xl,
+  .xl-eight * {
+    width: $seven;}
+
+  .half-xl,
+  .six-xl,
+  .xl-half *,
+  .xl-six * {
+    width: $six;}
+
+  .five-xl,
+  .xl-five * {
+    width: $five;}
+
+  .third-xl,
+  .four-xl,
+  .xl-four *,
+  .xl-four * {
+    width: $four;}
+
+  .quarter-xl,
+  .three-xl,
+  .xl-quarter *,
+  .quarter-xl * {
+    width: $three;}
+
+  .two-xl,
+  .xl-two * {
+    width: $two;}
+
+  .one-xl
+  .xl-one * {
+    width: $one;}
+}
+
+
+
+
+
+// -a works will all, no media query
+
+// default - supports media queries and larger than 300, uses tablet
+@media (min-width: 300px) {}
+
+// -md tablets or larger
+@media (min-width: 750px) {}
+
+// -lg - laptop or larger
+@media (min-width: 1300px) {}
+
+// -xl - large desktop monitor
+@media (min-width: 1900px) {}
