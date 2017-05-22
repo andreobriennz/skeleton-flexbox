@@ -1,4 +1,4 @@
-// Vario Flex - 0.1.0 -18 April
+// Vario Flex - 0.1.1 - 22 May
 
 $one: 100% / 12;
 $two: $one * 2;
@@ -13,22 +13,6 @@ $ten: $one * 10;
 $eleven: $one * 11;
 $full: $one * 12;
 
-// .container {
-//   margin: 0 10%;
-//   width: 80%;}
-//
-// @media (min-width: 300px) {
-//   .container {
-//     margin: 0 2%;
-//     width: 96%;}
-// }
-//
-// @media (min-width: 750px) {
-//   .container {
-//     margin: 0 2%;
-//     width: 96%;}
-// }
-
 .v-row,
 .flex-row {
   display: flex;
@@ -37,8 +21,7 @@ $full: $one * 12;
 
 
 
-
-// optional -a class suffix for selecting all browsers
+// optional -a class suffix for selecting all browsers, even if they don't support flexbox
 .full-a,
 .twelve-a,
 .a-full *,
@@ -98,8 +81,7 @@ $full: $one * 12;
 
 
 
-
-// default grid (no suffix) for 300px or larger
+// default grid for 300px or larger
 @media (min-width: 300px) {
   .full-sm,
   .twelve-sm,
@@ -157,7 +139,6 @@ $full: $one * 12;
   .sm-one * {
     width: $one;}
 }
-
 
 
 
@@ -224,7 +205,6 @@ $full: $one * 12;
 
 
 
-
 // -lg for medium+ size screens, ie tablet or larger
 @media (min-width: 1300px) {
   .full-lg,
@@ -287,7 +267,6 @@ $full: $one * 12;
 
 
 
-
 // -xl for medium+ size screens, ie tablet or larger
 @media (min-width: 1300px) {
   .full-xl,
@@ -346,7 +325,6 @@ $full: $one * 12;
   .xl-one * {
     width: $one;}
 }
-
 
 
 

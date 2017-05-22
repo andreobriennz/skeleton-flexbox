@@ -1,7 +1,8 @@
 .v-row div {
   background-color: purple;
   min-height: 3rem;
-  &:nth-of-type(2n) {
-    background-color: darkblue;
-  }
+}
+
+.v-row div:nth-of-type(2n) {
+  background-color: darkblue;
 }

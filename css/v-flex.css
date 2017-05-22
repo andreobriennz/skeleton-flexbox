@@ -1,250 +1,350 @@
 .v-row,
 .flex-row {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .full-a,
 .twelve-a,
 .a-full *,
 .a-twelve * {
-  width: 100%; }
+  width: 100%;
+}
 
 .eleven-a,
 .a-eleven * {
-  width: 91.6666666667%; }
+  width: 91.66667%;
+}
 
 .ten-a,
 .a-ten * {
-  width: 83.3333333333%; }
+  width: 83.33333%;
+}
 
 .nine-a,
 .a-nine * {
-  width: 75%; }
+  width: 75%;
+}
 
 .eight-a,
 .a-eight * {
-  width: 66.6666666667%; }
+  width: 66.66667%;
+}
 
 .seven-a,
 .a-seven * {
-  width: 58.3333333333%; }
+  width: 58.33333%;
+}
 
 .half-a,
 .six-a,
 .a-half *,
 .a-six * {
-  width: 50%; }
+  width: 50%;
+}
 
 .five-a,
 .a-five * {
-  width: 41.6666666667%; }
+  width: 41.66667%;
+}
 
 .third-a,
 .four-a,
 .a-third *,
 .a-four * {
-  width: 33.3333333333%; }
+  width: 33.33333%;
+}
 
 .quarter-a,
 .three-a,
 .a-quarter *,
 .a-three * {
-  width: 25%; }
+  width: 25%;
+}
 
 .two-a,
 .a-two * {
-  width: 16.6666666667%; }
+  width: 16.66667%;
+}
 
 .one-a,
 .a-one * {
-  width: 8.3333333333%; }
+  width: 8.33333%;
+}
 
 @media (min-width: 300px) {
   .full-sm,
   .twelve-sm,
   .sm-full *,
   .sm-twelve * {
-    width: 100%; }
+    width: 100%;
+  }
+
   .eleven-sm,
   .sm-eleven * {
-    width: 91.6666666667%; }
+    width: 91.66667%;
+  }
+
   .ten-sm,
   .sm-ten * {
-    width: 83.3333333333%; }
+    width: 83.33333%;
+  }
+
   .nine-sm,
   .sm-nine * {
-    width: 75%; }
+    width: 75%;
+  }
+
   .eight-sm,
   .sm-eight * {
-    width: 66.6666666667%; }
+    width: 66.66667%;
+  }
+
   .seven-sm
-.sm-seven * {
-    width: 58.3333333333%; }
+  .sm-seven * {
+    width: 58.33333%;
+  }
+
   .half-sm,
   .six-sm,
   .sm-half *,
   .sm-six * {
-    width: 50%; }
+    width: 50%;
+  }
+
   .five-sm,
   .sm-five * {
-    width: 41.6666666667%; }
+    width: 41.66667%;
+  }
+
   .third-sm,
   .four-sm,
   .sm-third *,
   .sm-four * {
-    width: 33.3333333333%; }
+    width: 33.33333%;
+  }
+
   .quarter-sm,
   .three-sm,
   .sm-quarter *,
   .sm-three * {
-    width: 25%; }
+    width: 25%;
+  }
+
   .two-sm,
   .sm-two * {
-    width: 16.6666666667%; }
+    width: 16.66667%;
+  }
+
   .one-sm,
   .sm-one * {
-    width: 8.3333333333%; } }
-
+    width: 8.33333%;
+  }
+}
 @media (min-width: 750px) {
   .full-md,
   .twelve-md,
   .md-full *,
   .md-twelve * {
-    width: 100%; }
+    width: 100%;
+  }
+
   .eleven-md,
   .md-eleven * {
-    width: 91.6666666667%; }
+    width: 91.66667%;
+  }
+
   .ten-md,
   .md-ten * {
-    width: 83.3333333333%; }
+    width: 83.33333%;
+  }
+
   .nine-md,
   .md-nine * {
-    width: 75%; }
+    width: 75%;
+  }
+
   .eight-md,
   .md-eight * {
-    width: 66.6666666667%; }
+    width: 66.66667%;
+  }
+
   .seven-md,
   .md-seven * {
-    width: 58.3333333333%; }
+    width: 58.33333%;
+  }
+
   .half-md,
   .six-md,
   .md-half *,
   .six-md * {
-    width: 50%; }
+    width: 50%;
+  }
+
   .five-md,
   .md-five * {
-    width: 41.6666666667%; }
+    width: 41.66667%;
+  }
+
   .third-md,
   .four-md,
   .md-third *,
   .md-four * {
-    width: 33.3333333333%; }
+    width: 33.33333%;
+  }
+
   .quarter-md,
   .three-md,
   .md-quarter *,
   .md-three * {
-    width: 25%; }
+    width: 25%;
+  }
+
   .two-md,
   .md-two * {
-    width: 16.6666666667%; }
+    width: 16.66667%;
+  }
+
   .one-md,
   .md-one * {
-    width: 8.3333333333%; } }
-
+    width: 8.33333%;
+  }
+}
 @media (min-width: 1300px) {
   .full-lg,
   .twelve-lg,
   .lg-full *,
   .lg-twelve * {
-    width: 100%; }
+    width: 100%;
+  }
+
   .eleven-lg,
   .lg-eleven * {
-    width: 91.6666666667%; }
+    width: 91.66667%;
+  }
+
   .ten-lg,
   .lg-ten * {
-    width: 83.3333333333%; }
+    width: 83.33333%;
+  }
+
   .nine-lg,
   .lg-nine * {
-    width: 75%; }
+    width: 75%;
+  }
+
   .eight-lg,
   .lg-eight * {
-    width: 66.6666666667%; }
+    width: 66.66667%;
+  }
+
   .seven-lg,
   .lg-seven * {
-    width: 58.3333333333%; }
+    width: 58.33333%;
+  }
+
   .half-lg,
   .six-lg,
   .lg-half *,
   .lg-six * {
-    width: 50%; }
+    width: 50%;
+  }
+
   .five-lg,
   .lg-five * {
-    width: 41.6666666667%; }
+    width: 41.66667%;
+  }
+
   .third-lg,
   .four-lg,
   .lg-third *,
   .lg-four * {
-    width: 33.3333333333%; }
+    width: 33.33333%;
+  }
+
   .quarter-lg,
   .three-lg,
   .lg-quarter *,
   .lg-quarter * {
-    width: 25%; }
+    width: 25%;
+  }
+
   .two-lg,
   .lg-two * {
-    width: 16.6666666667%; }
+    width: 16.66667%;
+  }
+
   .one-lg,
   .lg-one * {
-    width: 8.3333333333%; } }
-
+    width: 8.33333%;
+  }
+}
 @media (min-width: 1300px) {
   .full-xl,
   .twelve-xl,
   .xl-full *,
   .xl-twelve * {
-    width: 100%; }
+    width: 100%;
+  }
+
   .eleven-xl,
   .xl-eleven * {
-    width: 91.6666666667%; }
+    width: 91.66667%;
+  }
+
   .ten-xl,
   .xl-ten * {
-    width: 83.3333333333%; }
+    width: 83.33333%;
+  }
+
   .nine-xl,
   .xl-nine * {
-    width: 75%; }
+    width: 75%;
+  }
+
   .eight-xl,
   .xl-eight * {
-    width: 66.6666666667%; }
+    width: 66.66667%;
+  }
+
   .seven-xl,
   .xl-eight * {
-    width: 58.3333333333%; }
+    width: 58.33333%;
+  }
+
   .half-xl,
   .six-xl,
   .xl-half *,
   .xl-six * {
-    width: 50%; }
+    width: 50%;
+  }
+
   .five-xl,
   .xl-five * {
-    width: 41.6666666667%; }
+    width: 41.66667%;
+  }
+
   .third-xl,
   .four-xl,
   .xl-four *,
   .xl-four * {
-    width: 33.3333333333%; }
+    width: 33.33333%;
+  }
+
   .quarter-xl,
   .three-xl,
   .xl-quarter *,
   .quarter-xl * {
-    width: 25%; }
+    width: 25%;
+  }
+
   .two-xl,
   .xl-two * {
-    width: 16.6666666667%; }
-  .one-xl
-.xl-one * {
-    width: 8.3333333333%; } }
+    width: 16.66667%;
+  }
 
-.v-row div {
-  background-color: purple;
-  min-height: 3rem; }
-  .v-row div:nth-of-type(2n) {
-    background-color: darkblue; }
+  .one-xl
+  .xl-one * {
+    width: 8.33333%;
+  }
+}
