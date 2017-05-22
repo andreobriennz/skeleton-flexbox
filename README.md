@@ -2,9 +2,11 @@
 
 This is an unofficial project adding flexbox to the popular Skeleton boilerplate. Development is in beta.
 
-## Get Started
+The Skeleton Flexbox grid is designed to work with the Skeleton framework without any conflicting classes or styles. It is not tested with other CSS frameworks, but will likely many other frameworks as well.
 
-The v-flex.scss contains a very simple flexbox grid which won't conflict with the Skeleton framework. While not tested on other frameworks, it is designed to be unlikely to conflict.
+
+## Get Started
+First include the v-flex.scss file into your css, along with the Skeleton files. Alternatively you can use the v-flex.css file if you are not using SCSS. 
 
 To create a row, add a class of either "v-row" or "flex-row" to the parent div. Next, set the width of the children by adding a class based on a twelve column grid and mobile-first design. For example, use a class of "six-sm" to target all screens (300px wide or larger) which support media queries and make the div six columns wide. If you need to target all screens, including those which don't support media queries, you can use "six-a".
 
