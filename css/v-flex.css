@@ -1,74 +1,76 @@
+/* Skeleton Flexbox - 0.1.1 */
+
 .v-row,
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.full-a,
-.twelve-a,
-.a-full *,
-.a-twelve * {
+.full-all,
+.twelve-all,
+.all-full *,
+.all-twelve * {
   width: 100%;
 }
 
-.eleven-a,
-.a-eleven * {
+.eleven-all,
+.all-eleven * {
   width: 91.66667%;
 }
 
-.ten-a,
-.a-ten * {
+.ten-all,
+.all-ten * {
   width: 83.33333%;
 }
 
-.nine-a,
-.a-nine * {
+.nine-all,
+.all-nine * {
   width: 75%;
 }
 
-.eight-a,
-.a-eight * {
+.eight-all,
+.all-eight * {
   width: 66.66667%;
 }
 
-.seven-a,
-.a-seven * {
+.seven-all,
+.all-seven * {
   width: 58.33333%;
 }
 
-.half-a,
-.six-a,
-.a-half *,
-.a-six * {
+.half-all,
+.six-all,
+.all-half *,
+.all-six * {
   width: 50%;
 }
 
-.five-a,
-.a-five * {
+.five-all,
+.all-five * {
   width: 41.66667%;
 }
 
-.third-a,
-.four-a,
-.a-third *,
-.a-four * {
+.third-all,
+.four-all,
+.all-third *,
+.all-four * {
   width: 33.33333%;
 }
 
-.quarter-a,
-.three-a,
-.a-quarter *,
-.a-three * {
+.quarter-all,
+.three-all,
+.all-quarter *,
+.all-three * {
   width: 25%;
 }
 
-.two-a,
-.a-two * {
+.two-all,
+.all-two * {
   width: 16.66667%;
 }
 
-.one-a,
-.a-one * {
+.one-all,
+.all-one * {
   width: 8.33333%;
 }
 

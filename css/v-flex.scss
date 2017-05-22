@@ -1,4 +1,4 @@
-// Vario Flex - 0.1.1 - 22 May
+// Skeleton Flexbox - 0.1.1
 
 $one: 100% / 12;
 $two: $one * 2;
@@ -22,60 +22,60 @@ $full: $one * 12;
 
 
 // optional -a class suffix for selecting all browsers, even if they don't support flexbox
-.full-a,
-.twelve-a,
-.a-full *,
-.a-twelve * {
+.full-all,
+.twelve-all,
+.all-full *,
+.all-twelve * {
   width: $full;}
 
-.eleven-a,
-.a-eleven * {
+.eleven-all,
+.all-eleven * {
   width: $eleven;}
 
-.ten-a,
-.a-ten * {
+.ten-all,
+.all-ten * {
   width: $ten;}
 
-.nine-a,
-.a-nine * {
+.nine-all,
+.all-nine * {
   width: $nine;}
 
-.eight-a,
-.a-eight * {
+.eight-all,
+.all-eight * {
   width: $eight;}
 
-.seven-a,
-.a-seven * {
+.seven-all,
+.all-seven * {
   width: $seven;}
 
-.half-a,
-.six-a,
-.a-half *,
-.a-six * {
+.half-all,
+.six-all,
+.all-half *,
+.all-six * {
   width: $six;}
 
-.five-a,
-.a-five * {
+.five-all,
+.all-five * {
   width: $five;}
 
-.third-a,
-.four-a,
-.a-third *,
-.a-four * {
+.third-all,
+.four-all,
+.all-third *,
+.all-four * {
   width: $four;}
 
-.quarter-a,
-.three-a,
-.a-quarter *,
-.a-three * {
+.quarter-all,
+.three-all,
+.all-quarter *,
+.all-three * {
   width: $three;}
 
-.two-a,
-.a-two * {
+.two-all,
+.all-two * {
   width: $two;}
 
-.one-a,
-.a-one * {
+.one-all,
+.all-one * {
   width: $one;}
 
 
