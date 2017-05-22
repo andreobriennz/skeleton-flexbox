@@ -1,13 +1,22 @@
-# Skeleton Flexbox - v0.1.1 - 22 May
+# Skeleton Flexbox - v0.1.1
 
 This is an unofficial project adding flexbox to the popular Skeleton boilerplate. Development is in beta.
 
 The Skeleton Flexbox grid is designed to work with the Skeleton framework without any conflicting classes or styles. It has not been tested with other other CSS frameworks, but will likely work with many other frameworks as well. It can also be used by itself without a framework. At this stage, it is not designed to be used for more complex layouts.
 
 
-## Getting Started
-First download the v-flex.css file (or v-flex.scss if you're using SCSS) located in this repo, and add it into the css folder of your Skeleton project. Remember to add a reference to this file in the html.
+## Download
 
+### With CSS
+First download the v-flex.css file located in the css folder of this repo, and add it into the css folder of your project. (For production use v-flex.min.css) Remember to add a reference to this file in the html.
+
+### With SCSS
+Download the v-flex.scss file located in this repo, and include it with your other SCSS files. 
+
+
+## Get Started
+
+### Approach 
 Skeleton-Flexbox is used in place of Skelton's row and column classes (Skeleton's container class is optional). It also follows a mobile-first design approach to media queries.
 
 ### Rows
