@@ -8,7 +8,7 @@ The Skeleton Flexbox grid is designed to work with the Skeleton framework withou
 ## Download
 
 ### With CSS
-First download the v-flex.css file located in the css folder of this repo, and add it into the css folder of your project. (For production use v-flex.min.css) Remember to add a reference to this file in the html.
+First download the v-flex.css file located in the css folder of this repo, and add it into the css folder of your project. There's also a v-flex.min.css file provided for production. Remember to add a reference to this file in the html.
 
 ### With SCSS
 Download the v-flex.scss file located in this repo, and include it with your other SCSS files. 
