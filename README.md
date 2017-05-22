@@ -22,12 +22,12 @@ To target medium size screens (750px or larger) you can then add a second class 
 
 Example:
 
-<div class="v-row">
+`<div class="v-row">
   <div class="six-sm three-md"></div>
   <div class="six-sm three-md"></div>
   <div class="six-sm three-md""></div>
   <div class="six-sm three-md""></div>
-</div>
+</div>`
 
 In the above example, on small devices flexbox would wrap the last two divs to a new row automatically (this works behind the scenes with Skeleton-Flexbox).
 
@@ -35,9 +35,9 @@ If all the divs in a row are the same width, you can specify this in the parent 
 
 Example:
 
-<div class="v-row sm-six md-three">
+`<div class="v-row sm-six md-three">
   <div></div>
   <div></div>
   <div></div>
   <div></div>
-</div>
+</div>`
