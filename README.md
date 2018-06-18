@@ -12,5 +12,7 @@ For documentation on using Flexbox-Grid: http://flexboxgrid.com
 For documentation on using Skeleton: http://getskeleton.com
 
 Boilerplate: Normalize 8.0.0 + Skeleton (http://getskeleton.com/)
+
 Flexbox: Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
+
 Gulp setup based on: simple-gulp-setup (https://github.com/andreobriennz/simple-gulp-setup)
