@@ -1,6 +1,8 @@
 const gulp = require('gulp');
 
+const concat = require('gulp-concat');
 const rename = require('gulp-rename');
+
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
@@ -17,6 +19,9 @@ const settings = {
 // CSS/SASS: compile scss to css, autoprefix, minify
 gulp.task('sass', function () {
     return gulp.src( settings.styles ) 
+        .pipe(concat( 'skeleton-flexbox.scss' ))
+        .pipe(gulp.dest( settings.dist ))
+
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({ 
             browsers: ['last 2 versions'],
