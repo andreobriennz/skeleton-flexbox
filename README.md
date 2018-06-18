@@ -3,7 +3,7 @@
 skelton-flexbox simply combines Normalize, Skeleton and Flexbox-Grid
 
 It does this for a few simple reasons including:
-1. Skeleton's grid can be removed to avoid conflicts
+1. Skeleton's grid can be removed to avoid conflicts and Normalize can be updated to version 8
 2. Avoid reinventing the wheel by manually adding both projects, or not using flexbox at all. (While this may seem minor it can add up given that Skeleton is commonly using on small projects and prototypes)
 3. To keep the Skeleton boilerplate alive! It hasn't been updated in over fours years, yet it's very popular
 4. The potential to add new features, or rewrite CSS to SCSS, in the future - if needed
