@@ -31,9 +31,7 @@ gulp.task('sass', function () {
 
 // WATCH FOR CHANGES
 gulp.task('watch', function() {
-    gulp.watch( settings.scripts, ['scripts']);
     gulp.watch( settings.styles, ['sass']);
 });
 
-gulp.task('default', ['sass', 'scripts', 'watch']);
-gulp.task('vendor', ['vendor-sass', 'vendor-scripts']);
+gulp.task('default', ['sass', 'watch']);
