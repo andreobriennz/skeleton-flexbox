@@ -1,7 +1,8 @@
-# skeleton-flexbox (v3.0.0-alpha.1)
+# skeleton-flexbox 
+v3.0.0-alpha.1
 
 ## Setup
-skelton-flexbox modernises the popular Skeleton boilerplate by replacing its traditional grid system with Flexbox-Grid (http://flexboxgrid.com), and updating Normalize to version 8
+skeleton-flexbox modernises the popular Skeleton boilerplate by replacing its traditional grid system with Flexbox-Grid (http://flexboxgrid.com), and updating Normalize to version 8
 
 Simply add one of the CSS or SCSS files in the dist/ directory to your project (dist/skeleton-flexbox.min.css is recommended for production)
 
