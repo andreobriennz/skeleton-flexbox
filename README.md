@@ -1,5 +1,4 @@
 # skeleton-flexbox 
-v3.0.0-alpha.1
 
 ## Setup
 skeleton-flexbox modernises the popular Skeleton boilerplate by replacing its traditional grid system with Flexbox-Grid (http://flexboxgrid.com), and updating Normalize to version 8
