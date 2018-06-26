@@ -6,6 +6,7 @@ skeleton-flexbox modernises the popular Skeleton boilerplate by replacing its tr
 Simply add one of the CSS or SCSS files in the dist/ directory to your project (dist/skeleton-flexbox.min.css is recommended for production)
 
 For documentation on using Flexbox-Grid: http://flexboxgrid.com
+
 For documentation on using Skeleton: http://getskeleton.com
 
 ## Dependencies
