@@ -15,17 +15,14 @@ Gulp setup based on: simple-gulp-setup (https://github.com/andreobriennz/simple-
 
 ## Install with NPM
 Install skeleton-flex and save to package.json:
+
 `npm install skeleton-flexbox --save`
 
 Import CSS into the project:
+
 `import 'skeleton-flexbox/dist/skeleton-flexbox.css';`
 
 ## Dependencies
 - Skeleton (http://getskeleton.com/)
 - Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
 - Normalize 8.0.0
-
-**Change log**
-- 3.0.0-alpha.2: 
-    - Add website
-    - Do some manual testing
