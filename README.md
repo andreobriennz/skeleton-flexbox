@@ -16,3 +16,7 @@ Boilerplate: Normalize 8.0.0 + Skeleton (http://getskeleton.com/)
 Flexbox: Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
 
 Gulp setup based on: simple-gulp-setup (https://github.com/andreobriennz/simple-gulp-setup)
+
+**Change log**
+- 3.0.0-alpha.2: 
+    - Add website, do manual testing 

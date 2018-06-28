@@ -1,6 +1,6 @@
 {
   "name": "skeleton-flexbox",
-  "version": "3.0.0-alpha.1",
+  "version": "3.0.0-alpha.2",
   "description": "The popular Skeleton CSS boilerplate with Flexbox Grid and Normalize 8 ",
   "main": "gulpfile.babel.js",
   "scripts": {
