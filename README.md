@@ -1,22 +1,22 @@
 # skeleton-flexbox
 
-skelton-flexbox simply combines Normalize, Skeleton and Flexbox-Grid
+## Setup
+skeleton-flexbox modernises the popular Skeleton boilerplate by replacing its traditional grid system with Flexbox-Grid (http://flexboxgrid.com), and updating Normalize to version 8
 
-It does this for a few simple reasons including:
-1. Skeleton's grid can be removed to avoid conflicts and Normalize can be updated to version 8
-2. Avoid reinventing the wheel by manually adding both projects, or not using flexbox at all. (While this may seem minor it can add up given that Skeleton is commonly using on small projects and prototypes)
-3. To keep the Skeleton boilerplate alive! It hasn't been updated in over fours years, yet it's very popular
-4. The potential to add new features, or rewrite CSS to SCSS, in the future - if needed
+Simply add one of the CSS or SCSS files in the dist/ directory to your project (dist/skeleton-flexbox.min.css is recommended for production)
 
 For documentation on using Flexbox-Grid: http://flexboxgrid.com
+
 For documentation on using Skeleton: http://getskeleton.com
-
-Boilerplate: Normalize 8.0.0 + Skeleton (http://getskeleton.com/)
-
-Flexbox: Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
 
 Gulp setup based on: simple-gulp-setup (https://github.com/andreobriennz/simple-gulp-setup)
 
+## Dependencies
+- Skeleton (http://getskeleton.com/)
+- Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
+- Normalize 8.0.0
+
 **Change log**
 - 3.0.0-alpha.2: 
-    - Add website, do manual testing 
+    - Add website
+    - Do some manual testing
