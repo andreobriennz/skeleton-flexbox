@@ -1,4 +1,4 @@
-# skeleton-flexbox (v3.0.0-alpha.1)
+# skeleton-flexbox
 
 skelton-flexbox simply combines Normalize, Skeleton and Flexbox-Grid
 
