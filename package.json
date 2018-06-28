@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/andreobriennz/Skeleton-Flexbox.git"
   },
-  "keywords": ["skeleton", "flexbox", "boilerplate", "css", "flexbox-grid"],
+  "keywords": [
+    "skeleton",
+    "flexbox",
+    "boilerplate",
+    "css",
+    "flexbox-grid"
+  ],
   "author": "Andre OBrien (https://andreobrien.me)",
   "license": "MIT",
   "bugs": {
