@@ -92,6 +92,14 @@ main {
     background-color: #272a2f;
 }
 
+/* ABOUT - MAIN */
+.about a {
+    color: #33C3F0;
+}
+.about a:hover {
+    color: #1EAEDB;
+}
+
 /* ASIDE / SIDEBAR */
 aside div {
     text-align: right;
