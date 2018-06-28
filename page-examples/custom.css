@@ -78,9 +78,11 @@ main {
 }
 
 .home .download,
-.home .github {
+.home .github,
+.about .download,
+.about .github {
     font-size: 1.5rem;
-    margin: 0 1rem;
+    margin: 1rem;
 
     color: #fff;
 }
