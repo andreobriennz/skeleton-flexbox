@@ -20,9 +20,9 @@
   "author": "Andre OBrien (https://andreobrien.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andreobriennz/Skeleton-Flexbox/issues"
+    "url": "https://github.com/andreobriennz/skeleton-flexbox/issues"
   },
-  "homepage": "https://github.com/andreobriennz/Skeleton-Flexbox#readme",
+  "homepage": "https://andreobriennz.github.io/skeleton-flexbox/",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
