@@ -14,9 +14,6 @@ For documentation on using Skeleton: http://getskeleton.com
 Gulp setup based on: simple-gulp-setup (https://github.com/andreobriennz/simple-gulp-setup)
 
 ## Install with NPM
-
-As of 28 June 2018 this project will be available to download via NPM
-
 Install skeleton-flex and save to package.json:
 `npm install skeleton-flexbox --save`
 
