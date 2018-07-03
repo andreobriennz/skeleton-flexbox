@@ -13,6 +13,13 @@ const settings = {
         'src/normalize.scss',
         'src/skeleton.scss',
         'src/flexbox-grid.scss',
+
+        // // Kube 6.5.2 (optional - uncomment to use)
+        // 'src/kube/src/_scss/_variables.scss',
+        // // create classes for colors:
+        // 'src/kube/src/_scss/components/_colors.scss',
+        // // alternative typography:
+        // 'src/kube/src/_scss/components/_typography.scss',
     ],
 }
 
