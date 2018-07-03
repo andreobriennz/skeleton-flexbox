@@ -11,7 +11,16 @@ const settings = {
     dist: 'dist', 
     styles: [ 
         'src/normalize.scss',
-        'src/skeleton.scss',
+
+        // Skeleton:
+        'skeleton/base-styles.scss',
+        'skeleton/typography.scss',
+        'skeleton/buttons.scss',
+        'skeleton/forms.scss',
+        'skeleton/tables.scss',
+        'skeleton/spacing.scss',
+
+        // Flexbox-Grid:
         'src/flexbox-grid.scss',
     ],
 }
