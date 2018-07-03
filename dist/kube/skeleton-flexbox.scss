@@ -1,0 +1,960 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+  
+// BREAKPOINTS
+// ---------------------------------------------------------------------------
+$sm: 768px !default;
+$md: 1024px !default;
+$lg: 1200px !default;
+
+
+// WIDTH
+// ---------------------------------------------------------------------------
+$w-small: 480px !default;
+$w-medium: 600px !default;
+$w-big: 740px !default;
+$w-large: 840px !default;
+
+
+// Z-INDEX
+// ---------------------------------------------------------------------------
+$z-over-content: 100 !default;
+$z-over-control: 200 !default;
+$z-over-page: 300 !default;
+$z-over-screen: 400 !default;
+$z-over-all: 500 !default;
+
+
+// GRID
+// ---------------------------------------------------------------------------
+$grid-columns: 12 !default;
+$grid-gutter: 2% !default;
+
+
+// FONT FAMILY
+// ---------------------------------------------------------------------------
+$text-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !default;
+$monospace-font-family: Consolas, Monaco, 'Courier New', monospace !default;
+$headings-font-family: $text-font-family !default;
+$buttons-font-family: $text-font-family !default;
+$input-font-family: $text-font-family !default;
+
+
+// COLORS
+// ---------------------------------------------------------------------------
+
+// Text
+$color-text: #313439 !default;
+$color-headings: #0d0d0e !default;
+
+// Links
+$color-link: #3794de !default;
+$color-link-hover: #f03c69 !default;
+
+// Button
+$color-button-primary: #1c86f2 !default;
+$color-button-primary-text: #fff !default;
+$color-button-secondary: #313439 !default;
+$color-button-secondary-text: #fff !default;
+
+// States
+$color-error: #f03c69 !default;
+$color-success: #35beb1 !default;
+$color-warning: #f7ba45 !default;
+$color-focus: #1c86f2 !default;
+
+// Extra
+$color-inverted: #fff !default;
+$color-highlight: #edf2ff !default; // color-focus 15% opacity
+
+// Grayscale
+$color-black: #0d0d0e !default;
+$color-darkgray: #313439 !default;
+$color-midgray: #676b72 !default;
+$color-gray: #bdbdbd !default;
+$color-lightgray: #d4d4d4 !default;
+$color-silver: #e0e1e1 !default;
+$color-aluminum: #f8f8f8 !default;
+
+
+// TEXT
+// ---------------------------------------------------------------------------
+
+// Font Size
+$font-size: 16px !default;
+$font-size-smaller: $font-size - 4px !default;
+$font-size-small: $font-size - 2px !default;
+$font-size-big: $font-size + 2px !default;
+$font-size-large: $font-size + 4px !default;
+
+// Baseline
+$base-line: 24px !default;
+$base-line-smaller: 20px !default;
+$base-line-small: 20px !default;
+$base-line-big: 28px !default;
+$base-line-large: 32px !default;
+
+// Margin
+$text-margin-bottom: $font-size !default;
+
+
+// HEADINGS
+// ---------------------------------------------------------------------------
+
+// Font Size
+// By default: 60, 48, 36, 24, 21, 18, 16
+$heading-font-size-title: 60px !default;
+$heading-font-size-1: 48px !default;
+$heading-font-size-2: 36px !default;
+$heading-font-size-3: 24px !default;
+$heading-font-size-4: 21px !default;
+$heading-font-size-5: 18px !default;
+$heading-font-size-6: 16px !default;
+
+// Baseline
+$heading-base-line-title: 64px !default;
+$heading-base-line-1: 52px !default;
+$heading-base-line-2: 40px !default;
+$heading-base-line-3: 32px !default;
+$heading-base-line-4: 32px !default;
+$heading-base-line-5: 28px !default;
+$heading-base-line-6: 24px !default;
+
+// Margin
+$heading-margin-bottom: $font-size !default;
+
+
+// TABLES
+// ---------------------------------------------------------------------------
+
+// Font Size
+$table-font-size: $font-size - 1px !default;
+
+// Baseline
+$table-base-line: 24px !default;
+
+// Padding
+$table-padding-tb: 1rem !default;
+$table-padding-rl: 1rem !default;
+
+// Border
+$table-border: 1px solid rgba(0, 0, 0, .05) !default;
+
+// Striped
+$table-background-striped: $color-aluminum !default;
+
+
+// BUTTONS
+// ---------------------------------------------------------------------------
+
+// Font Size
+$button-font-size: 15px !default;
+$button-font-size-smaller: $button-font-size - 4px !default;
+$button-font-size-small: $button-font-size - 2px !default;
+$button-font-size-big: $button-font-size + 2px !default;
+$button-font-size-large: $button-font-size + 4px !default;
+
+// Baseline
+$button-base-line: 20px !default;
+
+// Height
+$button-height: 40px !default;
+$button-height-small: 36px !default;
+$button-height-big: 48px !default;
+$button-height-large: 56px !default;
+
+// Padding
+$button-padding-tb: 8px !default;
+$button-padding-rl: 20px !default;
+$button-padding-small-tb: 6px !default;
+$button-padding-small-rl: 20px !default;
+$button-padding-big-tb: 13px !default;
+$button-padding-big-rl: 24px !default;
+$button-padding-large-tb: 20px !default;
+$button-padding-large-rl: 36px !default;
+
+// Weight
+$button-font-weight: 500 !default;
+
+// Radius
+$button-border-radius: 3px !default;
+
+
+// INPUTS
+// ---------------------------------------------------------------------------
+
+// Font Size
+$input-font-size: 15px !default;
+$input-font-size-smaller: $input-font-size - 4px !default;
+$input-font-size-small: $input-font-size - 2px !default;
+$input-font-size-big: $input-font-size + 2px !default;
+$input-font-size-large: $input-font-size + 4px !default;
+
+// Baseline
+$textarea-base-line: $base-line !default;
+
+// Height
+$input-height: 40px !default;
+$input-height-small: 36px !default;
+$input-height-big: 48px !default;
+$input-height-large: 56px !default;
+
+// Padding
+$input-padding-rl: 12px !default;
+$input-padding-small-rl: 12px !default;
+$input-padding-big-rl: 12px !default;
+$input-padding-large-rl: 12px !default;
+$input-textarea-padding-tb: 8px !default;
+
+// States
+$input-border-width: 1px !default;
+$input-border-color: $color-lightgray !default;
+$input-background-color: #fff !default;
+$input-box-shadow: none !default;
+
+$input-focus-background-color: #fff !default;
+$input-focus-border-color: $color-focus !default;
+$input-focus-box-shadow: 0 0 1px $color-focus inset !default;
+
+$input-error-background-color: $color-error !default;
+$input-error-border-color: $color-error !default;
+$input-error-focus-box-shadow: 0 0 1px $color-error inset !default;
+
+$input-success-background-color: $color-success !default;
+$input-success-border-color: $color-success !default;
+$input-success-focus-box-shadow: 0 0 1px $color-success inset !default;
+
+$input-disabled-opacity: .6;
+$input-disabled-color: rgba(0, 0, 0, .5);
+
+// Radius
+$input-border-radius: 3px !default;
+
+
+// OVERLAY
+// ---------------------------------------------------------------------------
+$overlay-background-color: rgba(#fff, .95);
+// Text Colors
+.black     { color: $color-black; }
+.inverted  { color: $color-inverted; }
+.error     { color: $color-error; }
+.success   { color: $color-success; }
+.warning   { color: $color-warning; }
+.focus     { color: $color-focus; }
+.aluminum  { color: $color-aluminum; }
+.silver    { color: $color-silver; }
+.lightgray { color: $color-lightgray; }
+.gray      { color: $color-gray; }
+.midgray   { color: $color-midgray; }
+.darkgray  { color: $color-darkgray; }
+
+// Background Colors
+.bg-black      { background-color: $color-black; }
+.bg-inverted   { background-color: $color-inverted; }
+.bg-error      { background-color: $color-error; }
+.bg-success    { background-color: $color-success; }
+.bg-warning    { background-color: $color-warning; }
+.bg-focus      { background-color: $color-focus; }
+.bg-aluminum   { background-color: $color-aluminum; }
+.bg-silver     { background-color: $color-silver; }
+.bg-lightgray  { background-color: $color-lightgray; }
+.bg-gray       { background-color: $color-gray; }
+.bg-midgray    { background-color: $color-midgray; }
+.bg-darkgray   { background-color: $color-darkgray; }
+.bg-highlight  { background-color: $color-highlight; }
+@mixin breakpoint($min: 0, $max: 0) {
+
+    $type: type-of($min);
+
+    @if $type == string
+    {
+        @if $min == sm
+        {
+            @media (max-width: $sm) { @content; }
+        }
+        @else if $min == md
+        {
+            @media (min-width: $sm) and (max-width: $md) { @content; }
+        }
+        @else if $min == lg
+        {
+            @media (min-width: $lg) { @content; }
+        }
+    }
+    @else if $type == number
+    {
+        $query: "all" !default;
+        @if $min != 0 and $max != 0 { $query: "(min-width: #{$min}) and (max-width: #{$max})"; }
+        @else if $min != 0 and $max == 0 { $query: "(min-width: #{$min})"; }
+        @else if $min == 0 and $max != 0 { $query: "(max-width: #{$max})"; }
+        @media #{$query} { @content; }
+    }
+}
+html,
+body {
+    font-size: $font-size;
+    line-height: $base-line;
+}
+body {
+	font-family: $text-font-family;
+	color: $color-text;
+	background-color: transparent;
+}
+
+// Links
+a {
+	color: $color-link;
+}
+a:hover {
+	color: $color-link-hover;
+}
+
+// Headings
+h1.title, h1, h2, h3, h4, h5, h6 {
+	font-family: $headings-font-family;
+	font-weight: bold;
+	color: $color-headings;
+	text-rendering: optimizeLegibility;
+    margin-bottom: $heading-margin-bottom;
+}
+h1.title {
+    font-size: $heading-font-size-title;
+    line-height: $heading-base-line-title;
+    margin-bottom: $heading-margin-bottom/2;
+}
+h1,
+.h1 {
+    font-size: $heading-font-size-1;
+    line-height: $heading-base-line-1;
+}
+h2,
+.h2 {
+    font-size: $heading-font-size-2;
+    line-height: $heading-base-line-2;
+}
+h3,
+.h3 {
+    font-size: $heading-font-size-3;
+    line-height: $heading-base-line-3;
+}
+h4,
+.h4 {
+    font-size: $heading-font-size-4;
+    line-height: $heading-base-line-4;
+}
+h5,
+.h5 {
+    font-size: $heading-font-size-5;
+    line-height: $heading-base-line-5;
+}
+h6,
+.h6 {
+    font-size: $heading-font-size-6;
+    line-height: $heading-base-line-6;
+}
+h1 a, .h1 a,
+h2 a, .h2 a,
+h3 a, .h3 a,
+h4 a, .h4 a,
+h5 a, .h5 a,
+h6 a, .h6 a {
+  color: inherit;
+}
+
+// Top Space
+p,
+ul,
+ol,
+dl,
+blockquote,
+hr,
+pre,
+table,
+form,
+figure {
+	+ h2,
+	+ h3,
+	+ h4,
+	+ h5,
+	+ h6 {
+		margin-top: $base-line;
+	}
+}
+
+// Lists
+ul,
+ol {
+    &,
+    & ul,
+    & ol {
+	    margin: 0 0 0 $base-line;
+	}
+}
+ol ol li {
+	list-style-type: lower-alpha;
+}
+ol ol ol li {
+	list-style-type: lower-roman;
+}
+nav {
+    & ul,
+    & ol {
+        margin: 0;
+	    list-style: none;
+	    & ul,
+	    & ol {
+    	    margin-left: $base-line;
+	    }
+	}
+}
+dl dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: $base-line;
+}
+
+// Block Tags
+p, blockquote, hr, pre, ol, ul, dl, table, fieldset, figure, address, form {
+	margin-bottom: $text-margin-bottom;
+}
+hr {
+    border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	margin-top: -1px;
+}
+blockquote {
+	padding-left: 1rem;
+	border-left: 4px solid rgba(0, 0, 0, .1);
+	font-style: italic;
+	color: rgba($color-text, .65);
+	& p {
+    	margin-bottom: .5rem;
+	}
+}
+
+// Inline
+time, cite, small, figcaption {
+	font-size: 87.5%;
+}
+cite {
+    opacity: .6;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted rgba(0, 0, 0, .5);
+	cursor: help;
+}
+var {
+    font-size: $font-size;
+	opacity: .6;
+	font-style: normal;
+}
+mark, code, samp, kbd {
+    position: relative;
+    top: -1px;
+	padding: 4px 4px 2px 4px;
+	display: inline-block;
+	line-height: 1;
+	color: rgba($color-text, .85);
+}
+code {
+	background: $color-silver;
+}
+mark {
+	background: $color-warning;
+}
+samp {
+	color: #fff;
+	background: $color-focus;
+}
+kbd {
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+sub,
+sup {
+    font-size: x-small;
+	line-height: 0;
+	margin-left: 1rem/4;
+	position: relative;
+}
+sup {
+	top: 0;
+}
+sub {
+	bottom: 1px;
+}
+
+// Preformatted
+pre, code, samp, var, kbd {
+	font-family: $monospace-font-family;
+}
+pre, code, samp, var, kbd, mark {
+	font-size: 87.5%;
+}
+pre,
+pre code {
+    background: $color-aluminum;
+	padding: 0;
+	top: 0;
+    display: block;
+    line-height: $base-line-small;
+    color: rgba($color-text, .85);
+	overflow: none;
+	white-space: pre-wrap;
+}
+pre {
+    padding: 1rem;
+}
+
+// Figure
+figcaption {
+	opacity: .6;
+}
+figure figcaption {
+    position: relative;
+    top: -1rem/2;
+}
+figure pre {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+figure {
+    & .video-container,
+    & pre {
+        margin-bottom: $text-margin-bottom/2;
+    }
+}
+
+
+// Alignment
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+// Modifiers
+ul.unstyled {
+    & {
+        margin-left: 0;
+    }
+    &,
+    & ul {
+        list-style: none;
+    }
+}
+.monospace {
+   font-family: $monospace-font-family;
+}
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+.italic {
+    font-style: italic !important;
+}
+.strong {
+    font-weight: bold !important;
+}
+.normal {
+    font-weight: normal !important;
+}
+.muted {
+    opacity: .55;
+}
+a.muted {
+    color: $color-black;
+}
+a.muted:hover {
+    opacity: 1;
+}
+.black {
+    color: $color-black;
+}
+.smaller {
+	font-size: $font-size-smaller;
+	line-height: $base-line-smaller;
+}
+.small {
+	font-size: $font-size-small;
+	line-height: $base-line-small;
+}
+.big {
+	font-size: $font-size-big;
+	line-height: $base-line-big;
+}
+.large {
+	font-size: $font-size-large;
+	line-height: $base-line-large;
+}
+.end {
+    margin-bottom: 0 !important;
+}
+.highlight {
+	background-color: $color-highlight;
+}
+.nowrap,
+.nowrap td {
+	white-space: nowrap;
+}
+
+
+// Text Columns
+@include breakpoint(md) {
+
+    .columns-2,
+    .columns-3,
+    .columns-4 {
+         column-gap: $base-line;
+    }
+
+    .columns-2 { column-count: 2; }
+    .columns-3 { column-count: 3; }
+    .columns-4 { column-count: 4; }
+}
