@@ -8,7 +8,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 
 const settings = {
-    dist: 'dist', 
+    dist: 'dist/kube', 
     styles: [ 
         'src/normalize.scss',
 
@@ -23,12 +23,11 @@ const settings = {
         // // Flexbox-Grid:
         'src/flexbox-grid.scss',
 
-        // // Kube 6.5.2 (optional - uncomment to use)
-        // 'src/kube/src/_scss/_variables.scss',
-        // // create classes for colors:
-        // 'src/kube/src/_scss/components/_colors.scss',
-        // // alternative typography:
-        // 'src/kube/src/_scss/components/_typography.scss',
+        // Kube 6.5.2 (optional - uncomment to use)
+        'src/kube/src/_scss/_variables.scss', // required if using Kube
+        'src/kube/src/_scss/mixins/_breakpoints.scss',
+        'src/kube/src/_scss/components/_colors.scss', // create classes for colors
+        'src/kube/src/_scss/components/_typography.scss', // alternative typography (requires breakpoints)
     ],
 }
 
