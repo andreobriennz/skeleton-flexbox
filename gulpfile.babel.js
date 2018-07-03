@@ -12,15 +12,15 @@ const settings = {
     styles: [ 
         'src/normalize.scss',
 
-        // Skeleton:
-        'skeleton/base-styles.scss',
-        'skeleton/typography.scss',
-        'skeleton/buttons.scss',
-        'skeleton/forms.scss',
-        'skeleton/tables.scss',
-        'skeleton/spacing.scss',
+        // // Skeleton:
+        'src/skeleton/base-styles.scss',
+        'src/skeleton/typography.scss',
+        'src/skeleton/buttons.scss',
+        'src/skeleton/forms.scss',
+        'src/skeleton/tables.scss',
+        'src/skeleton/spacing.scss',
 
-        // Flexbox-Grid:
+        // // Flexbox-Grid:
         'src/flexbox-grid.scss',
     ],
 }
