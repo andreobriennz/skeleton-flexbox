@@ -1,7 +1,5 @@
 # skeleton-flexbox
 
-[View website](https://andreobriennz.github.io/skeleton-flexbox/)
-
 ## Setup
 skeleton-flexbox modernises the popular Skeleton boilerplate by replacing its traditional grid system with Flexbox-Grid (http://flexboxgrid.com), and updating Normalize to version 8
 
@@ -26,3 +24,5 @@ Import CSS into the project:
 - Skeleton (http://getskeleton.com/)
 - Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
 - Normalize 8.0.0
+
+[View demo](https://andreobriennz.github.io/skeleton-flexbox/)

@@ -11,7 +11,16 @@ const settings = {
     dist: 'dist', 
     styles: [ 
         'src/normalize.scss',
-        'src/skeleton.scss',
+
+        // // Skeleton:
+        'src/skeleton/base-styles.scss',
+        'src/skeleton/typography.scss',
+        'src/skeleton/buttons.scss',
+        'src/skeleton/forms.scss',
+        'src/skeleton/tables.scss',
+        'src/skeleton/spacing.scss',
+
+        // // Flexbox-Grid:
         'src/flexbox-grid.scss',
 
         // // Kube 6.5.2 (optional - uncomment to use)

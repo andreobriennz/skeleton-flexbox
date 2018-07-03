@@ -302,35 +302,11 @@ template {
 [hidden] {
   display: none; }
 
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid (removed)
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
 /* Base Styles
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
-  html is set to 62.5% so that all the REM measurements throughout Skeleton
-  are based on 10px sizing. So basically 1.5rem = 15px :) */
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 
@@ -343,7 +319,7 @@ body {
   color: #222; }
 
 /* Typography
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -398,15 +374,53 @@ p {
   margin-top: 0; }
 
 /* Links
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1EAEDB; }
 
 a:hover {
   color: #0FA0CE; }
 
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+
+ol {
+  list-style: decimal inside; }
+
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; }
+
+li {
+  margin-bottom: 1rem; }
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
 /* Buttons
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
 input[type="submit"],
@@ -469,7 +483,7 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 /* Forms
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -539,46 +553,8 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
-/* Lists
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside; }
-
-ol {
-  list-style: decimal inside; }
-
-ol, ul {
-  padding-left: 0;
-  margin-top: 0; }
-
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
-
-li {
-  margin-bottom: 1rem; }
-
-/* Code
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-code {
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
-  font-size: 90%;
-  white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px; }
-
-pre > code {
-  display: block;
-  padding: 1rem 1.5rem;
-  white-space: pre; }
-
 /* Tables
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
   padding: 12px 15px;
@@ -594,7 +570,7 @@ td:last-child {
   padding-right: 0; }
 
 /* Spacing
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
   margin-bottom: 1rem; }
@@ -617,7 +593,7 @@ form {
   margin-bottom: 2.5rem; }
 
 /* Utilities
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -635,36 +611,13 @@ form {
   float: left; }
 
 /* Misc
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
-/* Clearing
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Self Clearing Goodness */
-.container:after,
-.row:after,
-.u-cf {
-  content: "";
-  display: table;
-  clear: both; }
-
-/* Media Queries
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-  Note: The best way to structure the use of media queries is to create the queries
-  near the relevant code. For example, if you wanted to change the styles for buttons
-  on small devices, paste the mobile query code up in the buttons section and style it
-  there.
-  */
-/* Larger than mobile */
-/* Larger than phablet (also point when grid becomes active) */
-/* Larger than tablet */
-/* Larger than desktop */
-/* Larger than Desktop HD */
 .container-fluid,
 .container {
   margin-right: auto;
