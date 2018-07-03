@@ -25,9 +25,7 @@ const settings = {
 
         // Kube 6.5.2 (optional - uncomment to use)
         'src/kube/src/_scss/_variables.scss', // required if using Kube
-        'src/kube/src/_scss/mixins/_breakpoints.scss',
         'src/kube/src/_scss/components/_colors.scss', // create classes for colors
-        'src/kube/src/_scss/components/_typography.scss', // alternative typography (requires breakpoints)
     ],
 }
 
