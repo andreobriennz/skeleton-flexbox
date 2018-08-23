@@ -1,7 +1,7 @@
 {
   "name": "skeleton-flexbox",
-  "version": "0.0.0-beta.1",
-  "description": "The popular Skeleton CSS boilerplate with Flexbox-Grid and Normalize 8, now with more styles.",
+  "version": "3.0.0-beta.3",
+  "description": "The popular Skeleton CSS boilerplate with Flexbox-Grid and Normalize 8 ",
   "main": "gulpfile.babel.js",
   "scripts": {
     "gulp build": "./node_modules/.bin/gulp build",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/44r0n/skeleton-styled.git"
+    "url": "git+https://github.com/andreobriennz/Skeleton-Flexbox.git"
   },
   "keywords": [
     "skeleton",
@@ -19,12 +19,12 @@
     "css",
     "flexbox-grid"
   ],
-  "author": "Aarón Sánchez (https://44r0n.github.io)",
+  "author": "Andre OBrien (https://andreobrien.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/44r0n/skeleton-styled/issues"
+    "url": "https://github.com/andreobriennz/skeleton-flexbox/issues"
   },
-  "homepage": "https://github.com/44r0n/skeleton-styled",
+  "homepage": "https://andreobriennz.github.io/skeleton-flexbox/",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
