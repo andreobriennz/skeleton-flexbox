@@ -636,6 +636,27 @@ hr {
   line-height: 20px;
   cursor: pointer; }
 
+.note {
+  border-radius: 4px;
+  border-left: 6px solid;
+  padding-left: 1%;
+  color: #555; }
+
+.note.danger {
+  border-left-color: #c94c4c; }
+
+.note.success {
+  border-left-color: #16a516; }
+
+.note.warning {
+  border-left-color: #a1a103; }
+
+.note.primary {
+  border-left-color: #33C3F0; }
+
+.note.dark {
+  border-left-color: #999; }
+
 .danger {
   background-color: #ffdddd;
   color: #c94c4c;

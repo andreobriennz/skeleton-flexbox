@@ -639,6 +639,32 @@ hr {
     line-height: 20px;
     cursor: pointer;
 }
+.note {
+    border-radius: 4px;
+    border-left: 6px solid;
+    padding-left: 1%;
+    color: $grey;
+}
+
+.note.danger {   
+    border-left-color: $red;
+}
+
+.note.success {        
+    border-left-color: $green;            
+}
+
+.note.warning {    
+    border-left-color: $yellow;           
+}
+
+.note.primary {    
+    border-left-color: $blue;        
+}
+
+.note.dark {
+    border-left-color: $clear-grey;           
+}
 .danger {   
     background-color: $clear-red;
     color: $red;    
