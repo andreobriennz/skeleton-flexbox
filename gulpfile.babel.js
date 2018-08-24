@@ -8,7 +8,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 
 const settings = {
-    dist: 'dist', 
+    dist: 'css', 
     styles: [ 
         'src/normalize.scss',
 
