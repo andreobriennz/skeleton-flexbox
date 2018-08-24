@@ -13,6 +13,7 @@ const settings = {
         'src/normalize.scss',
 
         // // Skeleton:
+        'src/skeleton/colors.scss',
         'src/skeleton/base-styles.scss',
         'src/skeleton/typography.scss',
         'src/skeleton/buttons.scss',

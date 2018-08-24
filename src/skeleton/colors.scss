@@ -1,0 +1,65 @@
+// Red colors
+$red: #c94c4c;
+$mid-red: #d6b2b2;
+$clear-red: #ffdddd;
+
+// Green colors
+$green: #16a516;
+$mid-green: #93b193;
+$clear-green: #e6fce6;
+
+//Yellow colors
+$yellow: #a1a103;
+$mid-yellow: #a7a779;
+$clear-yellow: #ffffc6;
+
+// Blue colors 
+$blue: #33C3F0;
+$mid-blue: #8497aa;
+$clear-blue: #e1f0ff;
+
+// Grey colors
+$dark-grey: #444;
+$grey: #555;
+$mid-grey: #777;
+$clear-grey: #999;
+
+// White colors
+$white: #fff;
+
+/**
+    * Element colors
+    */
+.danger {   
+    background-color: $clear-red;
+    color: $red;    
+    border-color: $mid-red;
+    border-left-color: $red;
+}
+
+.success {    
+    background-color: $clear-green; 
+    color: $green;        
+    border-color: $mid-green;        
+    border-left-color: $green;
+}
+
+.warning {    
+    background-color: $clear-yellow;
+    color: $yellow;        
+    border-color: $mid-yellow;  
+    border-left-color: $yellow;      
+}
+
+.primary {    
+    background-color: $clear-blue; 
+    color: $blue;        
+    border-color: $mid-blue;   
+    border-left-color: $blue;     
+}
+
+.dark {
+    background-color: $dark-grey; 
+    color: $white;        
+    border-color: $mid-grey;      
+}
