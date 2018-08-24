@@ -20,6 +20,7 @@ const settings = {
         'src/skeleton/forms.scss',
         'src/skeleton/tables.scss',
         'src/skeleton/spacing.scss',
+        'src/skeleton/alerts.scss',
 
         // // Flexbox-Grid:
         'src/flexbox-grid.scss',
