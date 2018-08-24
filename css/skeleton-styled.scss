@@ -368,44 +368,6 @@ $clear-grey: #999;
 
 // White colors
 $white: #fff;
-
-/**
-    * Element colors
-    */
-.danger {   
-    background-color: $clear-red;
-    color: $red;    
-    border-color: $mid-red;
-    border-left-color: $red;
-}
-
-.success {    
-    background-color: $clear-green; 
-    color: $green;        
-    border-color: $mid-green;        
-    border-left-color: $green;
-}
-
-.warning {    
-    background-color: $clear-yellow;
-    color: $yellow;        
-    border-color: $mid-yellow;  
-    border-left-color: $yellow;      
-}
-
-.primary {    
-    background-color: $clear-blue; 
-    color: $blue;        
-    border-color: $mid-blue;   
-    border-left-color: $blue;     
-}
-
-.dark {
-    background-color: $dark-grey; 
-    color: $white;        
-    border-color: $mid-grey;      
-}
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -666,6 +628,45 @@ hr {
     border-style: solid;        
     color: $grey;
     border-color: $clear-grey;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.danger {   
+    background-color: $clear-red;
+    color: $red;    
+    border-color: $mid-red;
+}
+
+.success {    
+    background-color: $clear-green; 
+    color: $green;        
+    border-color: $mid-green;        
+}
+
+.warning {    
+    background-color: $clear-yellow;
+    color: $yellow;        
+    border-color: $mid-yellow;  
+}
+
+.primary {    
+    background-color: $clear-blue; 
+    color: $blue;        
+    border-color: $mid-blue;      
+}
+
+.dark {
+    background-color: $dark-grey; 
+    color: $white;        
+    border-color: $mid-grey;      
 }
 .container-fluid,
 .container {

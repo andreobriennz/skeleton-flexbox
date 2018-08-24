@@ -302,38 +302,6 @@ template {
 [hidden] {
   display: none; }
 
-/**
-    * Element colors
-    */
-.danger {
-  background-color: #ffdddd;
-  color: #c94c4c;
-  border-color: #d6b2b2;
-  border-left-color: #c94c4c; }
-
-.success {
-  background-color: #e6fce6;
-  color: #16a516;
-  border-color: #93b193;
-  border-left-color: #16a516; }
-
-.warning {
-  background-color: #ffffc6;
-  color: #a1a103;
-  border-color: #a7a779;
-  border-left-color: #a1a103; }
-
-.primary {
-  background-color: #e1f0ff;
-  color: #33C3F0;
-  border-color: #8497aa;
-  border-left-color: #33C3F0; }
-
-.dark {
-  background-color: #444;
-  color: #fff;
-  border-color: #777; }
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
@@ -658,6 +626,40 @@ hr {
   border-style: solid;
   color: #555;
   border-color: #999; }
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer; }
+
+.danger {
+  background-color: #ffdddd;
+  color: #c94c4c;
+  border-color: #d6b2b2; }
+
+.success {
+  background-color: #e6fce6;
+  color: #16a516;
+  border-color: #93b193; }
+
+.warning {
+  background-color: #ffffc6;
+  color: #a1a103;
+  border-color: #a7a779; }
+
+.primary {
+  background-color: #e1f0ff;
+  color: #33C3F0;
+  border-color: #8497aa; }
+
+.dark {
+  background-color: #444;
+  color: #fff;
+  border-color: #777; }
 
 .container-fluid,
 .container {
