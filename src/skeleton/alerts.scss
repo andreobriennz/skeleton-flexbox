@@ -7,3 +7,13 @@
     color: $grey;
     border-color: $clear-grey;
 }
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+}

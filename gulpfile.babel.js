@@ -21,6 +21,7 @@ const settings = {
         'src/skeleton/tables.scss',
         'src/skeleton/spacing.scss',
         'src/skeleton/alerts.scss',
+        'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
         'src/flexbox-grid.scss',

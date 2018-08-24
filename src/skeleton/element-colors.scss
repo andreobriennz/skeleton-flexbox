@@ -1,0 +1,29 @@
+.danger {   
+    background-color: $clear-red;
+    color: $red;    
+    border-color: $mid-red;
+}
+
+.success {    
+    background-color: $clear-green; 
+    color: $green;        
+    border-color: $mid-green;        
+}
+
+.warning {    
+    background-color: $clear-yellow;
+    color: $yellow;        
+    border-color: $mid-yellow;  
+}
+
+.primary {    
+    background-color: $clear-blue; 
+    color: $blue;        
+    border-color: $mid-blue;      
+}
+
+.dark {
+    background-color: $dark-grey; 
+    color: $white;        
+    border-color: $mid-grey;      
+}
