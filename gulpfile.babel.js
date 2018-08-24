@@ -30,7 +30,7 @@ const settings = {
 // CSS/SASS: compile scss to css, autoprefix, minify
 gulp.task('sass', function () {
     return gulp.src( settings.styles ) 
-        .pipe(concat( 'skeleton-flexbox.scss' ))
+        .pipe(concat( 'skeleton-styled.scss' ))
         .pipe(gulp.dest( settings.dist ))
 
         .pipe(sass().on('error', sass.logError))
@@ -38,9 +38,9 @@ gulp.task('sass', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(rename('skeleton-flexbox.css')) 
+        .pipe(rename('skeleton-styled.css')) 
         .pipe(gulp.dest( settings.dist )) 
-        .pipe(rename('skeleton-flexbox.min.css'))
+        .pipe(rename('skeleton-styled.min.css'))
         .pipe(minify({compatibility: 'ie8'})) 
         .pipe(gulp.dest( settings.dist ));
 });
