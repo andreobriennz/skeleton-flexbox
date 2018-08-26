@@ -22,6 +22,7 @@ const settings = {
         'src/skeleton/spacing.scss',
         'src/skeleton/alerts.scss',
         'src/skeleton/notes.scss',
+        'src/skeleton/checkbox.scss',
         'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
