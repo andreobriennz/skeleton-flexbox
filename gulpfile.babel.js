@@ -24,6 +24,7 @@ const settings = {
         'src/skeleton/notes.scss',
         'src/skeleton/checkbox.scss',
         'src/skeleton/switch.scss',
+        'src/skeleton/progressbar.scss',
         'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
