@@ -16,7 +16,21 @@ select {
     box-sizing: border-box; 
     border-width: 0 0 2px;
     transition: border-color 0.7s;
-}    
+}   
+
+input[type="email"]:invalid,
+input[type="number"]:invalid,
+input[type="search"]:invalid,
+input[type="text"]:invalid,
+input[type="tel"]:invalid,
+input[type="url"]:invalid,
+input[type="password"]:invalid,
+textarea:invalid,
+select:invalid {        
+    background-color: transparent;
+    border-color: $red ;    
+    box-shadow: none;    
+}   
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
