@@ -65,14 +65,35 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 } 
-
   
 /* On mouse-over, add a grey background color */
 .checkcontainer:hover input ~ .radio {
-    background-color: $clear-grey;    
+    background-color: $mid-grey;    
 }
   
 /* When the radio button is checked, add a blue background */
 .checkcontainer input:checked ~ .radio {
     background-color: $blue;
 }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the indicator (dot/circle) when checked */
+.checkcontainer input:checked ~ .radio:after {
+    display: block;
+}
+  
+/* Style the indicator (dot/circle) */
+.checkcontainer .radio:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+} 
