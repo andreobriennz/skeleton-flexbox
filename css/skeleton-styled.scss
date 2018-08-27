@@ -1058,13 +1058,13 @@ input:checked + .slider:before {
     100% { transform: rotate(360deg); }
 }
 .navbar {
-    background-color: #444;
+    background-color: $dark-grey;
     position: fixed; /* Set the navbar to fixed position */
 }
 
 .navbar a {
     display: block;
-    color: #777;
+    color: $mid-grey;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -1081,13 +1081,13 @@ input:checked + .slider:before {
 
 /* Add an active class to highlight the current page */
 .navbar a.active {    
-    color: #fff;
+    color: $white;
 }
 
 /* Add a grey background on topnav links and the dropdown button on hover */
 .navbar a:hover  {
-    background-color: #555;
-    color: #fff;
+    background-color: $grey;
+    color: $white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -1158,8 +1158,8 @@ div.content {
 
 .navbar input[type=text] {
     width: 130px;
-    -webkit-transition: width 0.7s ease-in-out;
-    transition: width 0.7s ease-in-out;
+    // -webkit-transition: width 0.7s ease-in-out;
+    // transition: width 0.7s ease-in-out;
     border-width: 0px;
     margin-top: 6px;
     margin-bottom: 0;
@@ -1169,9 +1169,9 @@ div.content {
 }
 
 /* When the input field gets focus, change its width to 100% */
-.navbar input[type=text]:focus {
-    width: 15%;
-}
+// .navbar input[type=text]:focus {
+//     width: 15%;
+// }
   
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {

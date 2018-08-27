@@ -1109,8 +1109,6 @@ div.content {
 
 .navbar input[type=text] {
   width: 130px;
-  -webkit-transition: width 0.7s ease-in-out;
-  transition: width 0.7s ease-in-out;
   border-width: 0px;
   margin-top: 6px;
   margin-bottom: 0;
@@ -1119,9 +1117,6 @@ div.content {
   border-radius: 4px; }
 
 /* When the input field gets focus, change its width to 100% */
-.navbar input[type=text]:focus {
-  width: 15%; }
-
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
   .side {
