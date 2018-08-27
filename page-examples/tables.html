@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get skeleton-styled</title>
+
+    <link rel="stylesheet" href="../css/skeleton-styled.min.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class= "navbar top">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a> 
+        <a href="#about">About</a>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+        <input type="text" name="search" placeholder="Search.."> 
+        <button class="button-primary" type="submit"><i class="fa fa-search"></i></button>  
+        <button class="button right" href="#"><i class="fas fa-user"></i></button>    
+    </div>
+    <div class="navbar side">
+        <a href="../index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a class="active" href="page-examples/tables.html"><i class="fas fa-table"></i> Tables</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="margin-top: 10%;">
+                    <h3>Basic table</h3>
+                    <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6" style="margin-top: 10%;">
+                    <h3>Stripped table</h3>
+                    <table class="u-full-width stripped">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Hover table</h3>
+                    <table class="u-full-width hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h3>Stripped hover table</h3>
+                    <table class="u-full-width stripped hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Small table</h3>
+                    <table class="u-full-width small">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contextual table</h3>
+                    <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="dark">
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr class="success">
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr class="primary">
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                            <tr class="warning">
+                                <td>Katelyn Fox</td>
+                                <td>21</td>
+                                <td>Female</td>
+                                <td>Paris</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>Claire O'Brian</td>
+                                <td>45</td>
+                                <td>Female</td>
+                                <td>Dublin</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contextual hover table</h3>
+                    <table class="u-full-width hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="dark">
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr class="success">
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr class="primary">
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                            <tr class="warning">
+                                <td>Katelyn Fox</td>
+                                <td>21</td>
+                                <td>Female</td>
+                                <td>Paris</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>Claire O'Brian</td>
+                                <td>45</td>
+                                <td>Female</td>
+                                <td>Dublin</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h3>Bordered table</h3>
+                    <table class="u-full-width bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Sex</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Faye Reagard</td>
+                                <td>36</td>
+                                <td>Female</td>
+                                <td>Berlin</td>
+                            </tr>
+                            <tr>
+                                <td>Dave Gamache</td>
+                                <td>26</td>
+                                <td>Male</td>
+                                <td>San Francisco</td>
+                            </tr>
+                            <tr>
+                                <td>Dwayne Johnson</td>
+                                <td>42</td>
+                                <td>Male</td>
+                                <td>Hayward</td>
+                            </tr>                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
