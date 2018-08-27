@@ -1,0 +1,137 @@
+.navbar {
+    background-color: #444;
+    position: fixed; /* Set the navbar to fixed position */
+}
+
+.navbar a {
+    display: block;
+    color: #777;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.7s ease, color .7s ease;
+    border-radius: 4px;
+}
+
+.navbar .right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+
+/* Add an active class to highlight the current page */
+.navbar a.active {    
+    color: #fff;
+}
+
+/* Add a grey background on topnav links and the dropdown button on hover */
+.navbar a:hover  {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+ /* Add a black background color to the top navigation */
+.top {    
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;    
+}
+
+/* The side navigation menu */
+.side {
+    width: 100px;    
+    height: 100%;
+    overflow: auto;
+    margin-top: 55px;    
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 100px;
+    /* padding: 1px 16px; */
+    /* height: 1000px;  */
+}
+
+/* Style the links inside the navigation bar */
+.top a {
+    float: left;    
+    text-align: center;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .top a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .top a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .top.responsive {position: relative;}
+  .top.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .top.responsive .dropdown {float: none;}
+  .top.responsive .dropdown-content {position: relative;}
+  .top.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.navbar input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.7s ease-in-out;
+    transition: width 0.7s ease-in-out;
+    border-width: 0px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    background-color: $white;
+    border-radius: 4px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.navbar input[type=text]:focus {
+    width: 15%;
+}
+  
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .side {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .side a {float: left;}
+        div.content {margin-left: 0;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .side a {
+        text-align: center;
+        float: none;
+    }
+} 
+  
+  
