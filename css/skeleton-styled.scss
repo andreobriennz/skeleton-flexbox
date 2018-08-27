@@ -794,6 +794,7 @@ hr {
     border-left: 6px solid;
     padding-left: 1%;
     color: $grey;
+    margin-bottom: 15px;
 }
 
 .note.danger {   
@@ -1194,6 +1195,16 @@ div.content {
 } 
   
   
+.card {
+    border-radius: 4px;
+    border: 1px solid;   
+    padding: 7px; 
+}
+
+.card .body {
+    text-align: right;
+    float: right;
+}
 .danger {   
     background-color: $clear-red;
     color: $red;    
