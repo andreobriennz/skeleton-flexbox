@@ -439,8 +439,10 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
+  -webkit-transition: background-color .7s ease-out, border-color .7s ease-out;
+  transition: background-color .7s ease-out, border-color .7s ease-out;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #999;
   cursor: pointer;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -455,8 +457,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  color: #444;
+  border-color: #999;
   outline: 0; }
 
 .button.button-primary,
@@ -464,7 +466,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: #fff;
   background-color: #33C3F0;
   border-color: #33C3F0; }
 
@@ -478,9 +480,105 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #fff;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+
+/* Button danger */
+.button.button-danger,
+button.button-danger,
+input[type="submit"].button-danger,
+input[type="reset"].button-danger,
+input[type="button"].button-danger {
+  color: #fff;
+  background-color: #c94c4c;
+  border-color: #c94c4c; }
+
+.button.button-danger:hover,
+button.button-danger:hover,
+input[type="submit"].button-danger:hover,
+input[type="reset"].button-danger:hover,
+input[type="button"].button-danger:hover,
+.button.button-danger:focus,
+button.button-danger:focus,
+input[type="submit"].button-danger:focus,
+input[type="reset"].button-danger:focus,
+input[type="button"].button-danger:focus {
+  color: #fff;
+  background-color: #b34343;
+  border-color: #b34343; }
+
+/* Button success */
+.button.button-success,
+button.button-success,
+input[type="submit"].button-success,
+input[type="reset"].button-success,
+input[type="button"].button-success {
+  color: #fff;
+  background-color: #16a516;
+  border-color: #16a516; }
+
+.button.button-success:hover,
+button.button-success:hover,
+input[type="submit"].button-success:hover,
+input[type="reset"].button-success:hover,
+input[type="button"].button-success:hover,
+.button.button-success:focus,
+button.button-success:focus,
+input[type="submit"].button-success:focus,
+input[type="reset"].button-success:focus,
+input[type="button"].button-success:focus {
+  color: #fff;
+  background-color: #158515;
+  border-color: #158515; }
+
+/* Button warning */
+.button.button-warning,
+button.button-warning,
+input[type="submit"].button-warning,
+input[type="reset"].button-warning,
+input[type="button"].button-warning {
+  color: #fff;
+  background-color: #a1a103;
+  border-color: #a1a103; }
+
+.button.button-warning:hover,
+button.button-warning:hover,
+input[type="submit"].button-warning:hover,
+input[type="reset"].button-warning:hover,
+input[type="button"].button-warning:hover,
+.button.button-warning:focus,
+button.button-warning:focus,
+input[type="submit"].button-warning:focus,
+input[type="reset"].button-warning:focus,
+input[type="button"].button-warning:focus {
+  color: #fff;
+  background-color: #777700;
+  border-color: #777700; }
+
+/* Button Dark */
+.button.button-dark,
+button.button-dark,
+input[type="submit"].button-dark,
+input[type="reset"].button-dark,
+input[type="button"].button-dark {
+  color: #fff;
+  background-color: #555;
+  border-color: #555; }
+
+.button.button-dark:hover,
+button.button-dark:hover,
+input[type="submit"].button-dark:hover,
+input[type="reset"].button-dark:hover,
+input[type="button"].button-dark:hover,
+.button.button-dark:focus,
+button.button-dark:focus,
+input[type="submit"].button-dark:focus,
+input[type="reset"].button-dark:focus,
+input[type="button"].button-dark:focus {
+  color: #fff;
+  background-color: #444;
+  border-color: #444; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -496,13 +594,13 @@ select {
   height: 38px;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+  background-color: transparent;
+  border-color: #999;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-width: 0 0 2px;
+  -webkit-transition: border-color 0.7s;
+  transition: border-color 0.7s; }
 
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -531,8 +629,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
+  border-color: #33C3F0; }
 
 label,
 legend {
@@ -552,6 +649,36 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
+
+select {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #999 50%), linear-gradient(135deg, #999 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat; }
+
+select:focus {
+  -webkit-transition: border-color 0.7s;
+  transition: border-color 0.7s;
+  -webkit-transition: background-image 0.7s;
+  transition: background-image 0.7s;
+  border-color: #33C3F0;
+  background-image: linear-gradient(45deg, #33C3F0 50%, transparent 50%), linear-gradient(135deg, transparent 50%, #33C3F0 50%);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  outline: 0; }
+
+select::-ms-expand {
+  display: none; }
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 black; }
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -656,6 +783,361 @@ hr {
 
 .note.dark {
   border-left-color: #999; }
+
+/* Customize the label (the container) */
+.checkcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 100 !important; }
+
+/* Hide the browser's default checkbox */
+.checkcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer; }
+
+/* Create a custom radio button */
+.mark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #999;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.7s ease;
+  transition: background-color 0.7s ease; }
+
+/* On mouse-over, add a grey background color */
+.checkcontainer:hover input ~ .check {
+  background-color: #777; }
+
+/* When the checkbox is checked, add a blue background */
+.checkcontainer input:checked ~ .check {
+  background-color: #33C3F0; }
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the checkmark when checked */
+.checkcontainer input:checked ~ .check:after {
+  display: block; }
+
+/* Style the checkmark/indicator */
+.checkcontainer .check:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* On mouse-over, add a grey background color */
+.checkcontainer:hover input ~ .radio {
+  background-color: #777; }
+
+/* When the radio button is checked, add a blue background */
+.checkcontainer input:checked ~ .radio {
+  background-color: #33C3F0; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.checkcontainer input:checked ~ .radio:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.checkcontainer .radio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
+
+/* Hide default HTML checkbox */
+.switch input {
+  display: none; }
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c94c4c;
+  -webkit-transition: .7s;
+  transition: .7s; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .7s;
+  transition: .7s; }
+
+input:checked + .slider {
+  background-color: #33C3F0; }
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #33C3F0;
+  box-shadow: 0 0 1px #33C3F0; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
+.progressBar {
+  width: 100%;
+  background-color: #D1D1D1; }
+
+.progressAmount {
+  height: 5px;
+  background-color: #16a516; }
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color .7s;
+  transition: background-color .7s;
+  border-radius: 50%; }
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: #33C3F0;
+  color: #fff;
+  border-radius: 50%; }
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+  background-color: #D1D1D1; }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */ }
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  /* Fade in tooltip */
+  opacity: 0;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease; }
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1; }
+
+.loader {
+  border: 5px solid #D1D1D1;
+  border-top: 5px solid #33C3F0;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+.navbar {
+  background-color: #444;
+  position: fixed;
+  /* Set the navbar to fixed position */ }
+
+.navbar a {
+  display: block;
+  color: #777;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  -webkit-transition: background-color 0.7s ease, color .7s ease;
+  transition: background-color 0.7s ease, color .7s ease;
+  border-radius: 4px; }
+
+.navbar .right {
+  float: right;
+  margin-right: 5px;
+  margin-top: 7px; }
+
+/* Add an active class to highlight the current page */
+.navbar a.active {
+  color: #fff; }
+
+/* Add a grey background on topnav links and the dropdown button on hover */
+.navbar a:hover {
+  background-color: #555;
+  color: #fff; }
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none; }
+
+/* Add a black background color to the top navigation */
+.top {
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  z-index: 1; }
+
+/* The side navigation menu */
+.side {
+  width: 100px;
+  height: 100%;
+  overflow: auto;
+  margin-top: 55px; }
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 100px;
+  /* padding: 1px 16px; */
+  /* height: 1000px;  */ }
+
+/* Style the links inside the navigation bar */
+.top a {
+  float: left;
+  text-align: center; }
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .top a:not(:first-child), .dropdown .dropbtn {
+    display: none; }
+  .top a.icon {
+    float: right;
+    display: block; } }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .top.responsive {
+    position: relative; }
+  .top.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .top.responsive a {
+    float: none;
+    display: block;
+    text-align: left; }
+  .top.responsive .dropdown {
+    float: none; }
+  .top.responsive .dropdown-content {
+    position: relative; }
+  .top.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left; } }
+
+.navbar input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.7s ease-in-out;
+  transition: width 0.7s ease-in-out;
+  border-width: 0px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  background-color: #fff;
+  border-radius: 4px; }
+
+/* When the input field gets focus, change its width to 100% */
+.navbar input[type=text]:focus {
+  width: 15%; }
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .side {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  .side a {
+    float: left; }
+  div.content {
+    margin-left: 0; } }
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .side a {
+    text-align: center;
+    float: none; } }
 
 .danger {
   background-color: #ffdddd;
