@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get skeleton-styled</title>
+
+    <link rel="stylesheet" href="../css/skeleton-styled.min.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class= "navbar top">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a> 
+            <a href="#about">About</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <input type="text" name="search" placeholder="Search.."> 
+            <button class="button-primary" type="submit"><i class="fa fa-search"></i></button>  
+            <button class="button right" href="#"><i class="fas fa-user"></i></button>    
+        </div>
+        <div class="navbar side">
+            <a href="../index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+            <a href="tables.html"><i class="fas fa-table"></i> Tables</a>
+            <a class="active" href="page-examples/forms.html""><i class="fas fa-edit"></i> Forms</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top: 10%;">                        
+                        <h1>Forms</h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="exampleEmailInput">Your email</label>
+                                    <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="exampleRecipientInput">Reason for contacting</label>
+                                    <select class="u-full-width" id="exampleRecipientInput">
+                                        <option value="Option 1">Questions</option>
+                                        <option value="Option 2">Admiration</option>
+                                        <option value="Option 3">Can I get your number?</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label for="exampleMessage">Message</label>
+                            <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+                            <label class="example-send-yourself-copy">
+                                <label class="switch">
+                                    <input class="switch" type="checkbox">
+                                    <span class="slider round"></span>
+                                    &nbsp;
+                                </label>
+                                <span class="label-body">Send a copy to yourself</span>
+                            </label>
+                            <input class="button-primary" value="Submit" type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
