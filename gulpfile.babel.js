@@ -27,6 +27,7 @@ const settings = {
         'src/skeleton/progressbar.scss',
         'src/skeleton/pagination.scss',
         'src/skeleton/tooltip.scss',
+        'src/skeleton/loader.scss',
         'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
