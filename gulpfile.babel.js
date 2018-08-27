@@ -29,6 +29,7 @@ const settings = {
         'src/skeleton/tooltip.scss',
         'src/skeleton/loader.scss',
         'src/skeleton/navbar.scss',
+        'src/skeleton/cards.scss',
         'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
