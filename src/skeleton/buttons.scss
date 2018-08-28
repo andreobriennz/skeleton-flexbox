@@ -39,6 +39,53 @@ input[type="button"]:focus {
 color: $dark-grey;
 border-color: $clear-grey;
 outline: 0; }
+/* Outline default */
+.button.outline,
+button.outline,
+input[type="submit"].outline,
+input[type="reset"].outline,
+input[type="button"].outline {
+  color: $white;
+  border-color: $clear-grey;
+  background-color: $clear-grey;
+}
+.button:hover.outline,
+button:hover.outline,
+input[type="submit"]:hover.outline,
+input[type="reset"]:hover.outline,
+input[type="button"]:hover.outline,
+.button:focus.outline,
+button:focus.outline,
+input[type="submit"]:focus.outline,
+input[type="reset"]:focus.outline,
+input[type="button"]:focus.outline {
+  color: $dark-grey;
+  border-color: $clear-grey;
+  background-color: transparent;
+  outline: 0; 
+}
+/* button disabled */
+.button.outline:disabled,
+button.outline:disabled,
+input[type="submit"].outline:disabled,
+input[type="reset"].outline:disabled,
+input[type="button"].outline:disabled {
+  color: $white;
+  border-color: $dark-white;
+  background-color: $dark-white;
+}
+/* outline disabled */
+.button:disabled,
+button.button:disabled,
+input[type="submit"].button:disabled,
+input[type="reset"].button:disabled,
+input[type="button"].button:disabled {
+color: $dark-white;
+border-color: $dark-white;
+cursor: default;
+ }
+
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -60,6 +107,28 @@ input[type="button"].button-primary:focus {
 color: $white;
 background-color: $dark-blue;
 border-color: $dark-blue; }
+/* Primary outline */
+.button.button-primary.outline,
+button.button-primary.outline,
+input[type="submit"].button-primary.outline,
+input[type="reset"].button-primary.outline,
+input[type="button"].button-primary.outline {
+  color: $blue;
+  background-color: transparent;
+  border-color: $blue; }
+.button.button-primary:hover.outline,
+button.button-primary:hover.outline,
+input[type="submit"].button-primary:hover.outline,
+input[type="reset"].button-primary:hover.outline,
+input[type="button"].button-primary:hover.outline,
+.button.button-primary:focus.outline,
+button.button-primary:focus.outline,
+input[type="submit"].button-primary:focus.outline,
+input[type="reset"].button-primary:focus.outline,
+input[type="button"].button-primary:focus.outline {
+  color: $white;
+  background-color: $blue;
+  border-color: $blue; }
 /* Primary disabled */
 .button.button-primary:disabled,
 button.button-primary:disabled,
@@ -70,6 +139,15 @@ background-color: $mid-blue;
 border-color: $mid-blue;
 cursor: default;
  }
+/* primary outline disabled */
+.button.button-primary.outline:disabled,
+button.button-primary.outline:disabled,
+input[type="submit"].button-primary.outline:disabled,
+input[type="reset"].button-primary.outline:disabled,
+input[type="button"].button-primary.outline:disabled {
+  color: $mid-blue;
+  background-color: transparent;
+  border-color: $mid-blue; }
 /* Button danger */
 .button.button-danger,
 button.button-danger,
@@ -92,6 +170,48 @@ input[type="button"].button-danger:focus {
   color: $white;
   background-color: $dark-red;
   border-color: $dark-red; }
+
+/* Danger outline */
+.button.button-danger.outline,
+button.button-danger.outline,
+input[type="submit"].button-danger.outline,
+input[type="reset"].button-danger.outline,
+input[type="button"].button-danger.outline {
+  color: $red;
+  background-color: transparent;
+  border-color: $red; }
+.button.button-danger:hover.outline,
+button.button-danger:hover.outline,
+input[type="submit"].button-danger:hover.outline,
+input[type="reset"].button-danger:hover.outline,
+input[type="button"].button-danger:hover.outline,
+.button.button-danger:focus.outline,
+button.button-danger:focus.outline,
+input[type="submit"].button-danger:focus.outline,
+input[type="reset"].button-danger:focus.outline,
+input[type="button"].button-danger:focus.outline {
+  color: $white;
+  background-color: $red;
+  border-color: $red; }
+/* Danger disabled */
+.button.button-danger:disabled,
+button.button-danger:disabled,
+input[type="submit"].button-danger:disabled,
+input[type="reset"].button-danger:disabled,
+input[type="button"].button-danger:disabled {
+background-color: $mid-red;
+border-color: $mid-red;
+cursor: default;
+ }
+/* Danger outline disabled */
+.button.button-danger.outline:disabled,
+button.button-danger.outline:disabled,
+input[type="submit"].button-danger.outline:disabled,
+input[type="reset"].button-danger.outline:disabled,
+input[type="button"].button-danger.outline:disabled {
+  color: $mid-red;
+  background-color: transparent;
+  border-color: $mid-red; }
 
 /* Button success */
 .button.button-success,
@@ -116,6 +236,47 @@ input[type="button"].button-success:focus {
   background-color: $dark-green;
   border-color: $dark-green; }
 
+/* Button success outline */
+.button.button-success.outline,
+button.button-success.outline,
+input[type="submit"].button-success.outline,
+input[type="reset"].button-success.outline,
+input[type="button"].button-success.outline {
+  color: $green;
+  background-color: transparent;
+  border-color: $green; }
+.button.button-success:hover.outline,
+button.button-success:hover.outline,
+input[type="submit"].button-success:hover.outline,
+input[type="reset"].button-success:hover.outline,
+input[type="button"].button-success:hover.outline,
+.button.button-success:focus.outline,
+button.button-success:focus.outline,
+input[type="submit"].button-success:focus.outline,
+input[type="reset"].button-success:focus.outline,
+input[type="button"].button-success:focus.outline {
+  color: $white;
+  background-color: $green;
+  border-color: $green; }
+/* Success disabled */
+.button.button-success:disabled,
+button.button-success:disabled,
+input[type="submit"].button-success:disabled,
+input[type="reset"].button-success:disabled,
+input[type="button"].button-success:disabled {
+background-color: $mid-green;
+border-color: $mid-green;
+cursor: default;
+ }
+/* Success outline disabled */
+.button.button-success.outline:disabled,
+button.button-success.outline:disabled,
+input[type="submit"].button-success.outline:disabled,
+input[type="reset"].button-success.outline:disabled,
+input[type="button"].button-success.outline:disabled {
+  color: $mid-green;
+  background-color: transparent;
+  border-color: $mid-green; }
 /* Button warning */
 .button.button-warning,
 button.button-warning,
@@ -139,6 +300,47 @@ input[type="button"].button-warning:focus {
   background-color: $dark-yellow;
   border-color: $dark-yellow; }
 
+/* Button warning outline */
+.button.button-warning.outline,
+button.button-warning.outline,
+input[type="submit"].button-warning.outline,
+input[type="reset"].button-warning.outline,
+input[type="button"].button-warning.outline {
+  color: $yellow;
+  background-color: transparent;
+  border-color: $yellow; }
+.button.button-warning:hover.outline,
+button.button-warning:hover.outline,
+input[type="submit"].button-warning:hover.outline,
+input[type="reset"].button-warning:hover.outline,
+input[type="button"].button-warning:hover.outline,
+.button.button-warning:focus.outline,
+button.button-warning:focus.outline,
+input[type="submit"].button-warning:focus.outline,
+input[type="reset"].button-warning:focus.outline,
+input[type="button"].button-warning:focus.outline {
+  color: $white;
+  background-color: $yellow;
+  border-color: $yellow; }
+/* Warning disabled */
+.button.button-warning:disabled,
+button.button-warning:disabled,
+input[type="submit"].button-warning:disabled,
+input[type="reset"].button-warning:disabled,
+input[type="button"].button-warning:disabled {
+background-color: $mid-yellow;
+border-color: $mid-yellow;
+cursor: default;
+ }
+/* warning outline disabled */
+.button.button-warning.outline:disabled,
+button.button-warning.outline:disabled,
+input[type="submit"].button-warning.outline:disabled,
+input[type="reset"].button-warning.outline:disabled,
+input[type="button"].button-warning.outline:disabled {
+  color: $mid-yellow;
+  background-color: transparent;
+  border-color: $mid-yellow; }
 /* Button Dark */
 .button.button-dark,
 button.button-dark,
@@ -161,3 +363,44 @@ input[type="button"].button-dark:focus {
   color: $white;
   background-color: $dark-grey;
   border-color: $dark-grey; }
+/* Button dark outline */
+.button.button-dark.outline,
+button.button-dark.outline,
+input[type="submit"].button-dark.outline,
+input[type="reset"].button-dark.outline,
+input[type="button"].button-dark.outline {
+  color: $grey;
+  background-color: transparent;
+  border-color: $grey; }
+.button.button-dark:hover,
+button.button-dark:hover,
+input[type="submit"].button-dark:hover.outline,
+input[type="reset"].button-dark:hover.outline,
+input[type="button"].button-dark:hover.outline,
+.button.button-dark:focus.outline,
+button.button-dark:focus.outline,
+input[type="submit"].button-dark:focus.outline,
+input[type="reset"].button-dark:focus.outline,
+input[type="button"].button-dark:focus.outline {
+  color: $white;
+  background-color: $grey;
+  border-color: $grey; }
+/* Dark disabled */
+.button.button-dark:disabled,
+button.button-dark:disabled,
+input[type="submit"].button-dark:disabled,
+input[type="reset"].button-dark:disabled,
+input[type="button"].button-dark:disabled {
+background-color: $mid-grey;
+border-color: $mid-grey;
+cursor: default;
+ }
+/* dark outline disabled */
+.button.button-dark.outline:disabled,
+button.button-dark.outline:disabled,
+input[type="submit"].button-dark.outline:disabled,
+input[type="reset"].button-dark.outline:disabled,
+input[type="button"].button-dark.outline:disabled {
+  color: $clear-grey;
+  background-color: transparent;
+  border-color: $clear-grey; }
