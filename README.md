@@ -10,9 +10,9 @@ Check the acutal release. Get `skeleton-styled.css` for developing purpose and `
 
 Copy `skeleton-styled.css` or `skeleton-styled.min.css` file to your css project folder and reference it from your html files.
 
-```
+~~~html
 <link rel="stylesheet" href="css/skeleton-styled.min.css">
-```
+~~~
 
 ### Install with NPM
 On progress
