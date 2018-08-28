@@ -2,6 +2,8 @@
 
 skeleton-styled is a fork of [skeleton-flexbox](https://github.com/andreobriennz/skeleton-flexbox) basically is the same skeleton with flexbox added and more styles. Just a step forward to a framework trying to keep the css lightweight. 
 
+[Demo](https://44r0n.github.io/skeleton-styled/).
+
 ## Getting Started
 
 Check the acutal release. Get `skeleton-styled.css` for developing purpose and `skeleton-styled.min.css` for production prupose.
