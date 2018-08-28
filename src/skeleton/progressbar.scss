@@ -1,8 +1,26 @@
 .progressBar {
     width: 100%;
     background-color: $dark-white;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
-.progressAmount {
-    height: 5px;
+.progress {
+    height: 5px;;
+}
+.progress.primary {
+    background-color: $blue;
+}
+.progress.success {
     background-color: $green;
 }
+.progress.warning {
+    background-color: $yellow;
+}
+.progress.danger {
+    background-color: $red;
+}
+.progress.dark {
+    background-color: $grey;
+}
+
+
