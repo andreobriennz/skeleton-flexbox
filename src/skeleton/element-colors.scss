@@ -4,9 +4,17 @@
     border-color: $mid-red;
 }
 
+.danger hr {
+    border-color: $mid-red;
+}
+
 .success {    
     background-color: $clear-green; 
     color: $green;        
+    border-color: $mid-green;        
+}
+
+.success hr {
     border-color: $mid-green;        
 }
 
@@ -16,14 +24,26 @@
     border-color: $mid-yellow;  
 }
 
+.warning hr {
+    border-color: $mid-yellow;  
+}
+
 .primary {    
     background-color: $clear-blue; 
     color: $blue;        
     border-color: $mid-blue;      
 }
 
+.primary hr {
+    border-color: $mid-blue;
+}
+
 .dark {
     background-color: $dark-grey; 
     color: $white;        
+    border-color: $mid-grey;      
+}
+
+.dark hr {
     border-color: $mid-grey;      
 }
