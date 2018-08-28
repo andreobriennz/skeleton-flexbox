@@ -484,6 +484,16 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
+/* Primary disabled */
+.button.button-primary:disabled,
+button.button-primary:disabled,
+input[type="submit"].button-primary:disabled,
+input[type="reset"].button-primary:disabled,
+input[type="button"].button-primary:disabled {
+  background-color: #8497aa;
+  border-color: #8497aa;
+  cursor: default; }
+
 /* Button danger */
 .button.button-danger,
 button.button-danger,
@@ -602,6 +612,7 @@ select {
   -webkit-transition: border-color 0.7s;
   transition: border-color 0.7s; }
 
+/* Invalid */
 input[type="email"]:invalid,
 input[type="number"]:invalid,
 input[type="search"]:invalid,
@@ -615,6 +626,27 @@ select:invalid {
   border-color: #c94c4c;
   -webkit-box-shadow: none;
   box-shadow: none; }
+
+/*Disabled */
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="text"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+textarea:disabled,
+select:disabled {
+  height: 38px;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: transparent;
+  border-color: #D1D1D1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-width: 0 0 2px;
+  -webkit-transition: border-color 0.7s;
+  transition: border-color 0.7s; }
 
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -846,19 +878,17 @@ hr {
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-weight: 100 !important; }
+  font-weight: 100; }
 
 /* Hide the browser's default checkbox */
 .checkcontainer input {
   position: absolute;
-  opacity: 0;
-  cursor: pointer; }
+  opacity: 0; }
 
 /* Create a custom radio button */
 .mark {
@@ -872,13 +902,25 @@ hr {
   -webkit-transition: background-color 0.7s ease;
   transition: background-color 0.7s ease; }
 
+/* Clearer color when the mark is disabled */
+.checkcontainer input:disabled ~ .mark {
+  background-color: #D1D1D1; }
+
 /* On mouse-over, add a grey background color */
 .checkcontainer:hover input ~ .check {
   background-color: #777; }
 
+/* No change when the mark is disabled */
+.checkcontainer:hover input:disabled ~ .check {
+  background-color: #D1D1D1; }
+
 /* When the checkbox is checked, add a blue background */
 .checkcontainer input:checked ~ .check {
   background-color: #33C3F0; }
+
+/* When the checkbos is checked and disabled */
+.checkcontainer input:checked:disabled ~ .check {
+  background-color: #8497aa; }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .check:after {
@@ -905,9 +947,17 @@ hr {
 .checkcontainer:hover input ~ .radio {
   background-color: #777; }
 
+/* On mouse-over disabled, no change*/
+.checkcontainer:hover input:disabled ~ .radio {
+  background-color: #D1D1D1; }
+
 /* When the radio button is checked, add a blue background */
 .checkcontainer input:checked ~ .radio {
   background-color: #33C3F0; }
+
+/* When the radio button is checked and disabled */
+.checkcontainer input:checked:disabled ~ .radio {
+  background-color: #8497aa; }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .radio:after {
@@ -950,6 +1000,10 @@ hr {
   -webkit-transition: .7s;
   transition: .7s; }
 
+input:disabled + .slider {
+  background-color: #d6b2b2;
+  cursor: default; }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -963,6 +1017,9 @@ hr {
 
 input:checked + .slider {
   background-color: #33C3F0; }
+
+input:checked:disabled + .slider {
+  background-color: #8497aa; }
 
 input:focus + .slider {
   -webkit-box-shadow: 0 0 1px #33C3F0;
