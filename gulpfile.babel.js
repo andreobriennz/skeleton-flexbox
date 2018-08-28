@@ -8,17 +8,30 @@ const autoprefixer = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 
 const settings = {
-    dist: 'dist', 
+    dist: 'css', 
     styles: [ 
         'src/normalize.scss',
 
         // // Skeleton:
+        'src/skeleton/colors.scss',
         'src/skeleton/base-styles.scss',
         'src/skeleton/typography.scss',
         'src/skeleton/buttons.scss',
         'src/skeleton/forms.scss',
         'src/skeleton/tables.scss',
         'src/skeleton/spacing.scss',
+        'src/skeleton/alerts.scss',
+        'src/skeleton/notes.scss',
+        'src/skeleton/checkbox.scss',
+        'src/skeleton/switch.scss',
+        'src/skeleton/progressbar.scss',
+        'src/skeleton/pagination.scss',
+        'src/skeleton/tooltip.scss',
+        'src/skeleton/loader.scss',
+        'src/skeleton/navbar.scss',
+        'src/skeleton/cards.scss',
+        'src/skeleton/jumbotron.scss',
+        'src/skeleton/element-colors.scss', //? keep as last element
 
         // // Flexbox-Grid:
         'src/flexbox-grid.scss',
@@ -28,7 +41,7 @@ const settings = {
 // CSS/SASS: compile scss to css, autoprefix, minify
 gulp.task('sass', function () {
     return gulp.src( settings.styles ) 
-        .pipe(concat( 'skeleton-flexbox.scss' ))
+        .pipe(concat( 'skeleton-styled.scss' ))
         .pipe(gulp.dest( settings.dist ))
 
         .pipe(sass().on('error', sass.logError))
@@ -36,9 +49,9 @@ gulp.task('sass', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(rename('skeleton-flexbox.css')) 
+        .pipe(rename('skeleton-styled.css')) 
         .pipe(gulp.dest( settings.dist )) 
-        .pipe(rename('skeleton-flexbox.min.css'))
+        .pipe(rename('skeleton-styled.min.css'))
         .pipe(minify({compatibility: 'ie8'})) 
         .pipe(gulp.dest( settings.dist ));
 });

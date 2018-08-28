@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get skeleton-styled</title>
+
+    <link rel="stylesheet" href="../css/skeleton-styled.min.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class= "navbar top">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a> 
+            <a href="#about">About</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+            <input type="text" name="search" placeholder="Search.."> 
+            <button class="button-primary" type="submit"><i class="fa fa-search"></i></button>  
+            <button class="button right" href="#"><i class="fas fa-user"></i></button>    
+        </div>
+        <div class="navbar side">
+            <a href="../index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+            <a href="tables.html"><i class="fas fa-table"></i> Tables</a>
+            <a class="active" href="#"><i class="fas fa-edit"></i> Forms</a>
+            <a href="elements.html"><i class="fas fa-desktop"></i> Elements</a>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top: 10%;">                        
+                        <h1>Forms</h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="exampleEmailInput">Your email</label>
+                                    <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="exampleRecipientInput">Reason for contacting</label>
+                                    <select class="u-full-width" id="exampleRecipientInput">
+                                        <option value="Option 1">Questions</option>
+                                        <option value="Option 2">Admiration</option>
+                                        <option value="Option 3">Can I get your number?</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label for="exampleMessage">Message</label>
+                            <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+                            <label class="example-send-yourself-copy">
+                                <label class="switch">
+                                    <input class="switch" type="checkbox">
+                                    <span class="slider round"></span>
+                                    &nbsp;
+                                </label>
+                                <span class="label-body">Send a copy to yourself</span>
+                            </label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label>Checkboxes</label>
+                                    <label class="checkcontainer">One
+                                        <input type="checkbox" checked="checked">
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Two
+                                        <input type="checkbox">
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Three
+                                        <input type="checkbox">
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Four
+                                        <input type="checkbox">
+                                        <span class="check mark"></span>
+                                    </label> 
+                                </div>
+                                <div class="col-sm-6">
+                                    <label>Radiobuttons</label>
+                                    <label class="checkcontainer">One
+                                        <input type="radio" checked="checked" name="radio">
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Two
+                                        <input type="radio" name="radio">
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Three
+                                        <input type="radio" name="radio">
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Four
+                                        <input type="radio" name="radio">
+                                        <span class="radio mark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <input class="button-primary" value="Submit" type="submit">
+                        </form>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 10%;">
+                        <h1>Disabled forms</h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="exampleDisabledInput">Disabled input</label>
+                                    <input class="u-full-width" id="exampleDisabledInput" type="text" placeholder="Disabled input" disabled>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="exampleDisabledOption">Disabled option</label>
+                                    <select class="u-full-width" id="exampleDisabledOption" disabled>
+                                        <option value="Option 1">Disabled option</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label class="disabledSwitch">
+                                        <label class="switch">
+                                            <input class="switch" type="checkbox" disabled>
+                                            <span class="slider round"></span>
+                                            &nbsp;
+                                        </label>
+                                        <span class="label-body">Disabled not checked</span>
+                                    </label>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="disabledSwitch">
+                                        <label class="switch">
+                                            <input class="switch" type="checkbox" disabled checked>
+                                            <span class="slider round"></span>
+                                            &nbsp;
+                                        </label>
+                                        <span class="label-body">Disabled checked</span>
+                                    </label>
+                                </div>
+                            </div>                                                    
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label>Disabled Checkboxes</label>
+                                    <label class="checkcontainer">One
+                                        <input type="checkbox" checked="checked" disabled>
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Two
+                                        <input type="checkbox" disabled>
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Three
+                                        <input type="checkbox" disabled>
+                                        <span class="check mark"></span>
+                                    </label>
+                                    
+                                    <label class="checkcontainer">Four
+                                        <input type="checkbox" disabled>
+                                        <span class="check mark"></span>
+                                    </label> 
+                                </div>
+                                <div class="col-sm-6">
+                                    <label>Disabled Radiobuttons</label>
+                                    <label class="checkcontainer">One
+                                        <input type="radio" checked="checked" name="radio" disabled>
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Two
+                                        <input type="radio" name="radio" disabled>
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Three
+                                        <input type="radio" name="radio" disabled>
+                                        <span class="radio mark"></span>
+                                    </label>
+                                    <label class="checkcontainer">Four
+                                        <input type="radio" name="radio" disabled>
+                                        <span class="radio mark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <input class="button-primary" value="Submit" type="submit" disabled>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
