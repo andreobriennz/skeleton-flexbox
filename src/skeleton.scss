@@ -33,9 +33,22 @@
 */
 
 // Editing in Gulp file is recommended:
+@import "skeleton/colors.scss";
 @import "skeleton/base-styles.scss";
 @import "skeleton/typography.scss"; // incl links, lists and code
 @import "skeleton/buttons.scss";
 @import "skeleton/forms.scss";
 @import "skeleton/tables.scss";
 @import "skeleton/spacing.scss"; // incl utilities and hr
+@import "skeleton/alerts.scss";
+@import "skeleton/notes.scss";
+@import "skeleton/checkbox.scss";
+@import "skeleton/switch.scss";
+@import "skeleton/progressbar.scss";
+@import "skeleton/pagination.scss";
+@import "skeleton/tooltip.scss";
+@import "skeleton/loader.scss";
+@import "skeleton/navbar.scss";
+@import "skeleton/cards.scss";
+@import "skeleton/jumbotron.scss";
+@import "skeleton/element-colors.scss"; //? keep as las element

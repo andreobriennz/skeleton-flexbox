@@ -1,13 +1,67 @@
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+    border-collapse: collapse;
+}
+
 th,
 td {
-padding: 12px 15px;
-text-align: left;
-border-bottom: 1px solid #E1E1E1; }
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid $dark-white; }
+table.bordered th, table.bordered td {
+    border: 1px solid $dark-white;
+}
 th:first-child,
 td:first-child {
-padding-left: 0; }
+    padding-left: 0; }
 th:last-child,
 td:last-child {
-padding-right: 0; }
+    padding-right: 0; }
+
+tr {
+    -webkit-transition: background-color .7s ease-out;
+    -moz-transition: background-color .7s ease-out;
+    -o-transition: background-color .7s ease-out;
+    transition: background-color .7s ease-out;
+}
+
+table.hover tbody tr:hover {
+    background-color: $clear-grey;    
+}
+
+table.stripped tr:nth-child(even) {
+    background-color: $dark-white;
+}
+
+table.small th, table.small td {
+    padding: 0px 0px;
+}
+
+tr.danger td, 
+tr.success td, 
+tr.warning td, 
+tr.primary td,
+tr.dark td {
+    border-color: inherit;
+}
+
+table.hover tr.danger:hover {
+    background-color: $mid-red;
+}
+
+table.hover tr.success:hover {
+    background-color: $mid-green;
+}
+
+table.hover tr.warning:hover {
+    background-color: $mid-yellow;
+}
+
+table.hover tr.primary:hover {
+    background-color: $mid-blue;
+}
+
+table.hover tr.dark:hover {
+    background-color: $mid-grey;
+}

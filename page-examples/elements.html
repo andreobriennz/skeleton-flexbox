@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get skeleton-styled</title>
+
+    <link rel="stylesheet" href="../css/skeleton-styled.min.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+    <div class= "navbar top">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a> 
+        <a href="#about">About</a>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+        <input type="text" name="search" placeholder="Search.."> 
+        <button class="button-success" type="submit"><i class="fa fa-search"></i></button>  
+        <button class="button-primary right outline" href="#"><i class="fas fa-user"></i></button>    
+    </div>
+    <div class="navbar side">
+        <a href="../index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="tables.html"><i class="fas fa-table"></i> Tables</a>
+        <a href="forms.html"><i class="fas fa-edit"></i> Forms</a>
+        <a href="#" class="active"><i class="fas fa-desktop"></i> Elements</a>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="margin-top: 10%;">
+                    <h1>Elements</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                        <h3>Hello world</h3>
+                        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                        <button class="button-primary">Learn more</button>
+                    </div>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 5%;">
+                    <h1>Buttons</h1>
+                    <hr />
+                    <button class="button">Default</button>
+                    <button class="button-primary">Primary</button>
+                    <button class="button-success">Success</button>
+                    <button class="button-warning">Warning</button>
+                    <button class="button-danger">Danger</button>
+                    <button class="button-dark">Dark</button>
+                    <h1>Outline Buttons</h1>
+                    <hr />
+                    <button class="button outline">Default</button>
+                    <button class="button-primary outline">Primary</button>
+                    <button class="button-success outline">Success</button>
+                    <button class="button-warning outline">Warning</button>
+                    <button class="button-danger outline">Danger</button>
+                    <button class="button-dark outline">Dark</button>
+                    <h1>Disabled buttons</h1>
+                    <hr />
+                    <button class="button" disabled>Default</button>
+                    <button class="button-primary" disabled>Primary</button>
+                    <button class="button-success" disabled>Success</button>
+                    <button class="button-warning" disabled>Warning</button>
+                    <button class="button-danger" disabled>Danger</button>
+                    <button class="button-dark" disabled>Dark</button>
+                    <h1>Outline disabled buttons</h1>
+                    <button class="button outline" disabled>Default</button>
+                    <button class="button-primary outline" disabled>Primary</button>
+                    <button class="button-success outline" disabled>Success</button>
+                    <button class="button-warning outline" disabled>Warning</button>
+                    <button class="button-danger outline" disabled>Danger</button>
+                    <button class="button-dark outline" disabled>Dark</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="margin-top: 5%;">
+                    <h1>Alerts</h1>
+                    <hr />
+                    <div class="alert">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>
+                    <div class="alert primary">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>
+                    <div class="alert success">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>
+                    <div class="alert warning">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>
+                    <div class="alert danger">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>                     
+                    <div class="alert dark">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        This is an alert box.
+                    </div>
+                    <h1>Notes</h1>
+                    <hr />
+                    <div class="note">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div> 
+                    <div class="note primary">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div>
+                    <div class="note success">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div>
+                    <div class="note warning">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div>
+                    <div class="note danger">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div>
+                    <div class="note dark">
+                        <p><strong>Danger!</strong> Some text...</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 5%">
+                    <h1>Progress bar</h1>
+                    <hr />
+                    <div class="progressBar">
+                        <div class="progress primary" style="width: 23%"></div>
+                    </div>  
+                    <div class="progressBar">
+                        <div class="progress success" style="width: 43%"></div>
+                    </div>  
+                    <div class="progressBar">
+                        <div class="progress warning" style="width: 73%"></div>
+                    </div>  
+                    <div class="progressBar">
+                        <div class="progress danger" style="width: 53%"></div>
+                    </div> 
+                    <div class="progressBar">
+                        <div class="progress dark" style="width: 13%"></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 5%;">
+                    <h1>Cards</h1>
+                    <hr />
+                </div>
+                <div class="col-md-3 card">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 card primary">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 card success">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 card warning">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 card danger">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3 card dark">
+                    <h3>Card title</h3>
+                    <hr />
+                    <p>Card body</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

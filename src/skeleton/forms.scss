@@ -9,13 +9,46 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-height: 38px;
-padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-background-color: #fff;
-border: 1px solid #D1D1D1;
-border-radius: 4px;
-box-shadow: none;
-box-sizing: border-box; }
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: transparent;
+    border-color: $clear-grey ;    
+    box-sizing: border-box; 
+    border-width: 0 0 2px;
+    transition: border-color 0.7s;
+}   
+/* Invalid */
+input[type="email"]:invalid,
+input[type="number"]:invalid,
+input[type="search"]:invalid,
+input[type="text"]:invalid,
+input[type="tel"]:invalid,
+input[type="url"]:invalid,
+input[type="password"]:invalid,
+textarea:invalid,
+select:invalid {        
+    background-color: transparent;
+    border-color: $red ;    
+    box-shadow: none;    
+}   
+/*Disabled */
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="text"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+textarea:disabled,
+select:disabled {
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: transparent;
+    border-color: $dark-white ;    
+    box-sizing: border-box; 
+    border-width: 0 0 2px;
+    transition: border-color 0.7s;
+}   
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -29,9 +62,9 @@ textarea {
     -moz-appearance: none;
         appearance: none; }
 textarea {
-min-height: 65px;
-padding-top: 6px;
-padding-bottom: 6px; }
+    min-height: 65px;
+    padding-top: 6px;
+    padding-bottom: 6px; }
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -41,20 +74,68 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-border: 1px solid #33C3F0;
-outline: 0; }
+    border-color: $blue;
+}
 label,
 legend {
-display: block;
-margin-bottom: .5rem;
-font-weight: 600; }
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600; }
 fieldset {
-padding: 0;
-border-width: 0; }
+    padding: 0;
+    border-width: 0; }
 input[type="checkbox"],
 input[type="radio"] {
-display: inline; }
+    display: inline; }
 label > .label-body {
-display: inline-block;
-margin-left: .5rem;
-font-weight: normal; }
+    display: inline-block;
+    margin-left: .5rem;
+    font-weight: normal; }
+
+select {
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, $clear-grey 50%),
+        linear-gradient(135deg, $clear-grey 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+select:focus {
+    transition: border-color 0.7s;
+    transition: background-image 0.7s;
+    border-color: $blue;
+    background-image:
+        linear-gradient(45deg, $blue 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, $blue 50%);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em ;
+    background-repeat: no-repeat;
+    outline: 0;
+}
+
+select::-ms-expand {
+    display: none;
+}
+    
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 black;
+}
