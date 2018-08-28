@@ -20,6 +20,11 @@
     -webkit-transition: .7s;
     transition: .7s;
 }
+
+input:disabled + .slider {
+    background-color: $mid-red;
+    cursor: default;
+}
   
 .slider:before {
     position: absolute;
@@ -35,6 +40,9 @@
   
 input:checked + .slider {
     background-color: $blue;
+}
+input:checked:disabled + .slider {
+    background-color: $mid-blue;
 }
   
 input:focus + .slider {

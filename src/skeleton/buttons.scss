@@ -60,7 +60,16 @@ input[type="button"].button-primary:focus {
 color: $white;
 background-color: $dark-blue;
 border-color: $dark-blue; }
-
+/* Primary disabled */
+.button.button-primary:disabled,
+button.button-primary:disabled,
+input[type="submit"].button-primary:disabled,
+input[type="reset"].button-primary:disabled,
+input[type="button"].button-primary:disabled {
+background-color: $mid-blue;
+border-color: $mid-blue;
+cursor: default;
+ }
 /* Button danger */
 .button.button-danger,
 button.button-danger,

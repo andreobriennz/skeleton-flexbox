@@ -4,22 +4,19 @@
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
-    cursor: pointer;
     font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-weight: 100 !important;
+    font-weight: 100;
 }
   
 /* Hide the browser's default checkbox */
 .checkcontainer input {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
-}
-  
+} 
 /* Create a custom radio button */
 .mark {
     position: absolute;
@@ -31,14 +28,25 @@
     border-radius: 50%;
     transition: background-color 0.7s ease;
 }
+/* Clearer color when the mark is disabled */
+.checkcontainer input:disabled ~ .mark {
+    background-color: $dark-white;    
+}
 /* On mouse-over, add a grey background color */
 .checkcontainer:hover input ~ .check {
     background-color: $mid-grey;
 }
-  
+/* No change when the mark is disabled */
+.checkcontainer:hover input:disabled ~ .check {
+    background-color: $dark-white;
+} 
 /* When the checkbox is checked, add a blue background */
 .checkcontainer input:checked ~ .check {
     background-color: $blue;
+}
+/* When the checkbos is checked and disabled */
+.checkcontainer input:checked:disabled ~ .check {
+    background-color: $mid-blue;
 }
   
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -70,10 +78,20 @@
 .checkcontainer:hover input ~ .radio {
     background-color: $mid-grey;    
 }
+
+/* On mouse-over disabled, no change*/
+.checkcontainer:hover input:disabled ~ .radio {
+    background-color: $dark-white;    
+}
   
 /* When the radio button is checked, add a blue background */
 .checkcontainer input:checked ~ .radio {
     background-color: $blue;
+}
+
+/* When the radio button is checked and disabled */
+.checkcontainer input:checked:disabled ~ .radio {
+    background-color: $mid-blue;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */

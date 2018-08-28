@@ -17,7 +17,7 @@ select {
     border-width: 0 0 2px;
     transition: border-color 0.7s;
 }   
-
+/* Invalid */
 input[type="email"]:invalid,
 input[type="number"]:invalid,
 input[type="search"]:invalid,
@@ -30,6 +30,24 @@ select:invalid {
     background-color: transparent;
     border-color: $red ;    
     box-shadow: none;    
+}   
+/*Disabled */
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="text"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+textarea:disabled,
+select:disabled {
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: transparent;
+    border-color: $dark-white ;    
+    box-sizing: border-box; 
+    border-width: 0 0 2px;
+    transition: border-color 0.7s;
 }   
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
