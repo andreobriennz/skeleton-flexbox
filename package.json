@@ -4,6 +4,8 @@
   "description": "The popular Skeleton CSS boilerplate with Flexbox-Grid and Normalize 8 ",
   "main": "gulpfile.babel.js",
   "scripts": {
+    "gulp build": "./node_modules/.bin/gulp build",
+    "gulp": "./node_modules/.bin/gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +30,7 @@
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-clean-css": "^3.9.4",
+    "gulp-cli": "^2.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.3.0",
     "gulp-sass": "^4.0.1",
