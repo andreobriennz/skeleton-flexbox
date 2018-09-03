@@ -1,4 +1,6 @@
-# MAC OS
+.env
+
+### MAC OS ###
 # General
 .DS_Store
 .AppleDouble
@@ -28,7 +30,7 @@ Temporary Items
 .apdisk
 
 
-# WINDOWS
+#### WINDOWS ###
 # Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
@@ -54,7 +56,52 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# WORDPRESS
+### JAVASCRIPT / NODE ###
+node_modules/
+jspm_packages/
+.eslintcache
+*.tgz
+
+# Output
+/dist
+/tmp
+/out-tsc
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+### VS CODE ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+out/
+
+
+### LARAVEL ###
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+
+
+### WORDPRESS ###
 *.log
 wp-config.php
 wp-content/advanced-cache.php
@@ -75,5 +122,16 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 
-# CUSTOM
+### PYTHON ###
+
+# Byte-compiled / optimized / DLL files
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+ENV/
+
 trash/
