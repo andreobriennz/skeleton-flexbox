@@ -77,3 +77,4 @@ wp-content/plugins/hello.php
 
 # CUSTOM
 trash/
+node_modules/
