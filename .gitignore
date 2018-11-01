@@ -135,3 +135,4 @@ venv/
 ENV/
 
 trash/
+node_modules/
