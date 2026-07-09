@@ -24,6 +24,12 @@ npm install
 npm run build
 ```
 
+To preview locally:
+
+```
+npx serve .
+```
+
 ## Dependencies
 - Skeleton (http://getskeleton.com/)
 - Flexbox-Grid (https://github.com/kristoferjoseph/flexboxgrid)
