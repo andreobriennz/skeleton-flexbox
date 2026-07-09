@@ -339,8 +339,7 @@
   [hidden] {
     display: none;
   }
-  
-/* Base Styles
+  /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
@@ -352,8 +351,7 @@ font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body
 line-height: 1.6;
 font-weight: 400;
 font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #222; }
-/* Typography
+color: #222; }/* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
 margin-top: 0;
@@ -418,8 +416,7 @@ code {
     display: block;
     padding: 1rem 1.5rem;
     white-space: pre; 
-}
-/* Buttons
+}/* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
@@ -476,8 +473,7 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
 color: #FFF;
 background-color: #1EAEDB;
-border-color: #1EAEDB; }
-/* Forms
+border-color: #1EAEDB; }/* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
 input[type="number"],
@@ -536,8 +532,7 @@ display: inline; }
 label > .label-body {
 display: inline-block;
 margin-left: .5rem;
-font-weight: normal; }
-/* Tables
+font-weight: normal; }/* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
@@ -549,8 +544,7 @@ td:first-child {
 padding-left: 0; }
 th:last-child,
 td:last-child {
-padding-right: 0; }
-/* Spacing
+padding-right: 0; }/* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
@@ -591,8 +585,7 @@ hr {
     margin-top: 3rem;
     margin-bottom: 3.5rem;
     border-width: 0;
-    border-top: 1px solid #E1E1E1; }
-.container-fluid,
+    border-top: 1px solid #E1E1E1; }.container-fluid,
 .container {
   margin-right: auto;
   margin-left: auto;

@@ -2,12 +2,12 @@
   "name": "skeleton-flexbox",
   "version": "3.0.0-beta.3",
   "description": "The popular Skeleton CSS boilerplate with Flexbox-Grid and Normalize 8 ",
-  "main": "gulpfile.babel.js",
   "scripts": {
-    "gulp build": "./node_modules/.bin/gulp build",
-    "gulp": "./node_modules/.bin/gulp",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "build": "npm run build:concat && npm run build:css && npm run build:prefix && npm run build:minify",
+    "build:concat": "cat src/normalize.scss src/skeleton/base-styles.scss src/skeleton/typography.scss src/skeleton/buttons.scss src/skeleton/forms.scss src/skeleton/tables.scss src/skeleton/spacing.scss src/flexbox-grid.scss > dist/skeleton-flexbox.scss",
+    "build:css": "sass dist/skeleton-flexbox.scss dist/skeleton-flexbox.css --no-source-map --style=expanded",
+    "build:prefix": "postcss dist/skeleton-flexbox.css --use autoprefixer --replace --no-map",
+    "build:minify": "cleancss -o dist/skeleton-flexbox.min.css dist/skeleton-flexbox.css"
   },
   "repository": {
     "type": "git",
@@ -20,23 +20,17 @@
     "css",
     "flexbox-grid"
   ],
-  "author": "Andre OBrien (https://andreobrien.me)",
+  "author": "Andre OBrien",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andreobriennz/skeleton-flexbox/issues"
   },
   "homepage": "https://andreobriennz.github.io/skeleton-flexbox/",
-  "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-clean-css": "^3.9.4",
-    "gulp-cli": "^2.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.3.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
-    "snyk": "^1.104.2"
-  },
-  "snyk": true
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.5.2",
+    "clean-css-cli": "^5.6.3",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.101.0"
+  }
 }
