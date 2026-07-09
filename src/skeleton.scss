@@ -32,7 +32,7 @@
 - Media Queries (not included by default)
 */
 
-// Editing in Gulp file is recommended:
+// To rebuild after editing, run: npm run build
 @import "skeleton/base-styles.scss";
 @import "skeleton/typography.scss"; // incl links, lists and code
 @import "skeleton/buttons.scss";
